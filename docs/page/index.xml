@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on CrystaWorld</title>
+        <link>https://crysta1221.github.io/page/</link>
+        <description>Recent content in Pages on CrystaWorld</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja</language>
+        <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://crysta1221.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>https://crysta1221.github.io/about/</link>
+        <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://crysta1221.github.io/about/</guid>
+        <description>&lt;h2 id=&#34;クリスタについて&#34;&gt;クリスタについて&lt;/h2&gt;
+&lt;p&gt;このサイトの管理人をしているクリスタです。主にシステム開発であったり、Minecraftのデータパックやプラグインを書いたり、ウェブ開発をしたり&amp;hellip;
+といろいろなことをしています。一応マイクラ歴をお見せしますと、&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: #00FFFF; &#34;&gt;✔ &lt;/span&gt; Minecraft歴(統合版): 2021/04 ~&lt;br&gt;
+&lt;span style=&#34;color: #00FFFF; &#34;&gt;✔ &lt;/span&gt; Minecraft歴(Java版): 2021/10 ~&lt;br&gt;
+&lt;span style=&#34;color: #00FFFF; &#34;&gt;✔ &lt;/span&gt; データパック歴: 2021/05 ~&lt;br&gt;
+&lt;span style=&#34;color: #00FFFF; &#34;&gt;✔ &lt;/span&gt; アスレ歴: 2021/12 ~&lt;/p&gt;
+&lt;p&gt;実は最近Minecraftを始めたばっかりなんです&amp;hellip; なのにデータパックに手を出したのはなんでや! と思われる方もいるでしょう。当時私は我々だ!さんの
+Minecraft企画にドハマリしていましてそれを作ってみたい!という軽い気持ちでデータパックに手を出しました。&lt;br&gt;
+MinecraftのWikiなんか毎日読みながらデータパックを書いて別のものを作る&amp;hellip;をずっと繰り返してきた結果が現在に至ります。&lt;br&gt;
+最近では、&lt;a class=&#34;link&#34; href=&#34;https://tatamiserver.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;畳サーバー&lt;/a&gt;という統合版でもJava版でも参加できるというMinecraftのサーバーに2021/12月からシステム開発
+としてミニゲームなどを開発しています。もし、興味がありましたらサイトより参加方法が表示されますのでぜひご確認ください!
+&lt;img src=&#34;https://crysta1221.github.io/about/contents.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;991&#34;
+	srcset=&#34;https://crysta1221.github.io/about/contents_huc15346d547449c7ee2808b63d2d9a497_2157634_480x0_resize_box_3.png 480w, https://crysta1221.github.io/about/contents_huc15346d547449c7ee2808b63d2d9a497_2157634_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;畳サーバー&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;このサイトについて&#34;&gt;このサイトについて&lt;/h2&gt;
+&lt;p&gt;このサイトは、このブログの管理人をしているクリスタのプログラミングなどの備忘録的なサイトとして作成しました。
+このサイトでは主にMinecraftだったり、ウェブ開発、プラグイン開発などの備忘録、ごくまれにアプリケーションの作業進捗などを
+載せていく予定です。&lt;br&gt;
+Minecraft関連は読みやすさ、やりやすさを重視しながら書いていく予定なので温かく見守っていただけると幸いです!&lt;/p&gt;
+&lt;h2 id=&#34;利用規約team-of-use&#34;&gt;利用規約(Team of Use)&lt;/h2&gt;
+&lt;p&gt;この利用規約(以下本規約)は、Crysta Worldがこのウェブサイト上で提供するコンテンツの利用条件を定めるものです。コンテンツを利用する際は、本規約に従って利用することができます。&lt;/p&gt;
+&lt;h3 id=&#34;第一条-適用&#34;&gt;第一条 適用&lt;/h3&gt;
+&lt;p&gt;本規約は、ユーザーとCrysta Worldとの間のコンテンツの利用に関わる一切の関係に適用されるものとします。
+CrystaWorldは本サービスに関し、本規約のほか、ご利用にあたってのルール等、各種の定め（以下、「個別規定」）をすることがあります。これら個別規定はその名称のいかんに関わらず、本規約の一部を構成するものとします。
+本規約の規定が前条の個別規定の規定と矛盾する場合には、個別規定において特段の定めなき限り、個別規定の規定が優先されるものとします。&lt;/p&gt;
+&lt;h3 id=&#34;第二条-禁止事項&#34;&gt;第二条 禁止事項&lt;/h3&gt;
+&lt;p&gt;ユーザは、本ウェブサイト上のコンテンツを利用するにあたり、以下の行為をしてはなりません。&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本コンテンツの一部または本コンテンツを第三者に無断で公開すること&lt;/li&gt;
+&lt;li&gt;本コンテンツを改造あるいは複製し、第三者に公開すること&lt;/li&gt;
+&lt;li&gt;無断で商用利用すること&lt;/li&gt;
+&lt;li&gt;本コンテンツのソースコードを解析し、無断で利用する行為&lt;/li&gt;
+&lt;li&gt;本コンテンツに対する自作発言&lt;/li&gt;
+&lt;li&gt;その他Crysta Worldが禁止と判断する行為&lt;br&gt;
+本コンテンツのシステムを真似し、全く同じあるいはそれに値するものを作成・公開あるいは配信する行為(本コンテンツはJava版のみ提供しており統合版には一切提供しておりません。もし、これを見かけた場合はご連絡ください)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;第三条--定義&#34;&gt;第三条  定義&lt;/h3&gt;
+&lt;p&gt;本利用規約にある「商用利用」に関する定義について以下の通りとします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;サーバーを一般公開しており、同時接続しているプレイヤーが30人を超えているサーバーでの利用&lt;/li&gt;
+&lt;li&gt;本コンテンツをCrysta World 公式サーバー以外で課金でしかプレイできないようにするサーバーでの利用(なお、個人で遊ぶために利用するのは商用利用にはなりません。また、これらのサーバーで本コンテンツを利用する場合は必ず許可を取ってからの利用をお願いします。)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;第四条-コンテンツ停止等&#34;&gt;第四条 コンテンツ停止等&lt;/h3&gt;
+&lt;p&gt;Crysta Worldは、以下の事由があると判断した場合、事前告知なくコンテンツを全部または一部の提供を一時停止あるいは完全に停止することがあります。&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本コンテンツになんらかの重大な不具合があった場合&lt;/li&gt;
+&lt;li&gt;本コンテンツを維持するためのサーバーメンテナンスを行う場合&lt;/li&gt;
+&lt;li&gt;本コンテンツの提供が困難になった場合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;第五条-保証の否認および免責事項&#34;&gt;第五条 保証の否認および免責事項&lt;/h3&gt;
+&lt;p&gt;Crysta Worldは、本コンテンツにエラーやバグがないことを明示的にも暗示的にも保証していません。
+本コンテンツに起因してユーザーに生じたあらゆる損害について、Crysta World  の故意による場合を除き一切の責任を負いません。&lt;/p&gt;
+&lt;h3 id=&#34;第六条-利用規約の変更&#34;&gt;第六条 利用規約の変更&lt;/h3&gt;
+&lt;p&gt;Crysta Worldは、ユーザーに対し事前の告知なく本利用規約を変更する場合があります。&lt;/p&gt;
+&lt;h3 id=&#34;第七条-個人情報の取り扱い&#34;&gt;第七条 個人情報の取り扱い&lt;/h3&gt;
+&lt;p&gt;Crysta Worldは、本コンテンツの提供をする際に個人情報の収集は行っていません。ただし、配布先ページでは別のサービスを利用しております。配布先ページに関する個人情報の取り扱いはそのサービスのプライバシーポリシーをご参照ください。&lt;/p&gt;
+&lt;h2 id=&#34;お問い合わせ&#34;&gt;お問い合わせ&lt;/h2&gt;
+&lt;p&gt;CrystaWorldに関するお問い合わせは、フォームでのみ受け付けております。以下のリンクよりフォームにご記入の上送信してください。
+受け取ってから一週間以内をめどに返信いたします。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://crysta1221.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://crysta1221.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Downloads</title>
+        <link>https://crysta1221.github.io/downloads/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://crysta1221.github.io/downloads/</guid>
+        <description>&lt;h2 id=&#34;ダウンロードセンター&#34;&gt;ダウンロードセンター&lt;/h2&gt;
+&lt;p&gt;ここにはダウンロード可能なファイルが表示されます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://crysta1221.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://crysta1221.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Note
+このブログは、Qiitaから移行されたものです。Qiita版をご覧になりたい場合は、以下のURLよりアクセスしてください。
+https://qiita.com/Crysta1221/items/810fa69d8d537054bec1
+はじめに どうもみなさんこんにちは。クリスタです。今回は、「徹底解説! Optifineの導入方法編」ということで、今更ほかのブログでやり方公開されてるのにわざわざ導入方法を書く必要なくね?と思う方も多いはず。 しかし! どのブログも「Optifineの導入に失敗した際の対処法」が少なすぎる! なので、今回は導入の解説もしつつ、失敗した際のパターンをほぼすべてに焦点を当てて解説をする回です。では早速行きましょう!
+1. Javaをインストール ということで、まずはOptifineの導入に必須のJavaから入れていきましょう。すでにパソコンにJavaが入っているという方はこの項目をスキップしてください。 今回は以下のページからインストールしていきます。 Javaのホームページ このページにまずはアクセスしましょう。ブラウザは、サポートの切れたInternet Explorer以外なら何でもいいです。下のようなページに飛ぶはずです。 この、赤枠の「Javaをダウンロード」というボタンをクリックしてください。ダウンロードされます。 Chrome系は上の画像のように左下にダウンロードしたファイルが表示されます。 一方、Edgeだけは特殊で、右上あたりにダウンロードするのがあるんですよね&amp;hellip;中身は同じなのにめんどくさいですね。 とりあえずダウンロードできたら、そのファイルをクリックします。エクスプローラーを開かずに、ブラウザでダウンロードしたファイルが表示されているはずなのでそのファイルをクリックすることで簡単に開けます。
+Warning
+ここから先は管理者の権限が必要です。
+インストールには、管理者権限が必要です。これは不必要にアプリをインストールできないようにする保護機能なので管理者でログインしている場合は、UAC(ユーザーアカウント制御)という「はい」か「いいえ」で選ぶ画面が出てくるはずです。一方、標準ユーザーの場合はここでパスワードが必要です。もし、親が管理しているパソコンであれば、パスワードが必要になることが多いので許可を取ってパスワードを入れてもらいましょう。 実行するとこんな画面が出てきます。 まずはライセンス条項を読みましょう。これは、Javaの利用規約で、簡単に言うと、
+1 2 3 このJavaは商用利用ダメだから個人で利用してね! Javaをインストールしてエラーが起きたらエラーの内容をOlacle(Java開発元)に送るかもだけど その情報の取り扱いについて書いてるから同意するかい? 同意するならインストールボタン押してね! という感じです。軽めに書いてますがちゃんと読みましょう。同意する場合は、「インストール」ボタンを押しましょう。逆に同意しない場合、こっから先には進めないというのは察しがつくと思います。 Javaのインストール完了 という画面が出たら、その画面を閉じましょう。さて、Optifine入れよう!と進めがちですが、一旦パソコンを再起動しましょう。理由は、Javaをインストールした際、そのインストールを必ず適用させるため(つまり失敗しないようにするため)です。中途半端にインストールしてしまうと、Optifineが入らない可能性があります。再起動できたら、次の項目へレッツゴー!
+2. Optifineの導入 さて、今回の山場Optifineの導入に行きます。ここからは完全にパソコンとJavaの相性により、方法が変わります。とりあえず、Optifineをダウンロードしてしまいましょう。以下のページに移動してください。 Optifine公式ページ こんなページになります。 ここから、あなたのバージョンにあったOptifineを入れていくわけですが、今のMinecraftで最新のバージョンは、 1.19.1 です。1.19あるいは1.19.1を入れる場合はそのままでよいわけですが、1.19より前のバージョンはどこ?と思うかもしれません。そのページに「Show all versions」というリンクがありますのでそれを押しましょう。 そうすると、いろいろなバージョンが表示されるようになります。今回は例として、 1.16.5 で解説しますが、どのバージョンでもやり方は同じですのでやり方としてご覧ください。 目的のバージョンのところに「Download」というボタンがあります。ここをクリックしてください。
+Info
+この後のページは広告が表示されます。ですのでこのページに書いてある方法に従ってください。変にクリックするだけで広告のページに飛ばされる恐れがあります。その際は落ちついてその広告ページのタブを閉じれば問題ありません。
+注意にもある通りここから先は広告が表示されます。 私は、Braveという広告をブロックしてくれるブラウザを使っているので真っ白ですが真っ白のところにでかでかと広告が載ってるはずです。どこ押せばいいんや!となりますが、右上に注目。小さく、「Please wait 5 seconds.」と書かれていますね。はい、察しがつくと思いますが、5秒待たないとスキップできません。Youtubeの広告みたいですね。 5秒待つと、右上に「Skip」というボタンが表示されるようになりますのでクリックしましょう。 そうすると、このような画面になりますので今度こそ「Download」ボタンをポチりましょう。 さっきJavaをダウンロードしたみたいにダウンロードしたファイルが表示されます。では、こっからが山場です。相性が良ければ、さっきのようにファイルをクリックすると、 このような画面になります。もし、このような画面になれば、Optifine Installerが表示された場合をご覧ください。それが表示されない場合は、下から該当する現象に合う項目を探してその方法を試してください。該当するものがない場合はまずは、クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出るをご覧ください。
+Optifine Installerが表示された場合 成功です! やりましたね! 3.起動構成の変更 に移動して、残りの設定を済ませてしまいましょう。
+クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出る 残念ながら、Javaとの相性が良くないようです。JDKを入れてみましょう。今回は、Adopt Open JDKというものを使います。本当は、Olacle のOpen JDKを使ってもいいのですが、Javaのバージョン管理が簡単なAdopt Open JDKがおすすめなのでこちらで。 Adopt Open JDKのページ このページに移動したら、まずは、1.'>
+<title>Optifine導入解説</title>
+
+<link rel='canonical' href='https://crysta1221.github.io/p/optifine-intro/'>
+
+<link rel="stylesheet" href="/scss/style.min.5a777f0ded082419b1106a6caa8256b541a9ed4ce74fe518797f50f68dac5380.css"><meta property='og:title' content='Optifine導入解説'>
+<meta property='og:description' content='Note
+このブログは、Qiitaから移行されたものです。Qiita版をご覧になりたい場合は、以下のURLよりアクセスしてください。
+https://qiita.com/Crysta1221/items/810fa69d8d537054bec1
+はじめに どうもみなさんこんにちは。クリスタです。今回は、「徹底解説! Optifineの導入方法編」ということで、今更ほかのブログでやり方公開されてるのにわざわざ導入方法を書く必要なくね?と思う方も多いはず。 しかし! どのブログも「Optifineの導入に失敗した際の対処法」が少なすぎる! なので、今回は導入の解説もしつつ、失敗した際のパターンをほぼすべてに焦点を当てて解説をする回です。では早速行きましょう!
+1. Javaをインストール ということで、まずはOptifineの導入に必須のJavaから入れていきましょう。すでにパソコンにJavaが入っているという方はこの項目をスキップしてください。 今回は以下のページからインストールしていきます。 Javaのホームページ このページにまずはアクセスしましょう。ブラウザは、サポートの切れたInternet Explorer以外なら何でもいいです。下のようなページに飛ぶはずです。 この、赤枠の「Javaをダウンロード」というボタンをクリックしてください。ダウンロードされます。 Chrome系は上の画像のように左下にダウンロードしたファイルが表示されます。 一方、Edgeだけは特殊で、右上あたりにダウンロードするのがあるんですよね&amp;hellip;中身は同じなのにめんどくさいですね。 とりあえずダウンロードできたら、そのファイルをクリックします。エクスプローラーを開かずに、ブラウザでダウンロードしたファイルが表示されているはずなのでそのファイルをクリックすることで簡単に開けます。
+Warning
+ここから先は管理者の権限が必要です。
+インストールには、管理者権限が必要です。これは不必要にアプリをインストールできないようにする保護機能なので管理者でログインしている場合は、UAC(ユーザーアカウント制御)という「はい」か「いいえ」で選ぶ画面が出てくるはずです。一方、標準ユーザーの場合はここでパスワードが必要です。もし、親が管理しているパソコンであれば、パスワードが必要になることが多いので許可を取ってパスワードを入れてもらいましょう。 実行するとこんな画面が出てきます。 まずはライセンス条項を読みましょう。これは、Javaの利用規約で、簡単に言うと、
+1 2 3 このJavaは商用利用ダメだから個人で利用してね! Javaをインストールしてエラーが起きたらエラーの内容をOlacle(Java開発元)に送るかもだけど その情報の取り扱いについて書いてるから同意するかい? 同意するならインストールボタン押してね! という感じです。軽めに書いてますがちゃんと読みましょう。同意する場合は、「インストール」ボタンを押しましょう。逆に同意しない場合、こっから先には進めないというのは察しがつくと思います。 Javaのインストール完了 という画面が出たら、その画面を閉じましょう。さて、Optifine入れよう!と進めがちですが、一旦パソコンを再起動しましょう。理由は、Javaをインストールした際、そのインストールを必ず適用させるため(つまり失敗しないようにするため)です。中途半端にインストールしてしまうと、Optifineが入らない可能性があります。再起動できたら、次の項目へレッツゴー!
+2. Optifineの導入 さて、今回の山場Optifineの導入に行きます。ここからは完全にパソコンとJavaの相性により、方法が変わります。とりあえず、Optifineをダウンロードしてしまいましょう。以下のページに移動してください。 Optifine公式ページ こんなページになります。 ここから、あなたのバージョンにあったOptifineを入れていくわけですが、今のMinecraftで最新のバージョンは、 1.19.1 です。1.19あるいは1.19.1を入れる場合はそのままでよいわけですが、1.19より前のバージョンはどこ?と思うかもしれません。そのページに「Show all versions」というリンクがありますのでそれを押しましょう。 そうすると、いろいろなバージョンが表示されるようになります。今回は例として、 1.16.5 で解説しますが、どのバージョンでもやり方は同じですのでやり方としてご覧ください。 目的のバージョンのところに「Download」というボタンがあります。ここをクリックしてください。
+Info
+この後のページは広告が表示されます。ですのでこのページに書いてある方法に従ってください。変にクリックするだけで広告のページに飛ばされる恐れがあります。その際は落ちついてその広告ページのタブを閉じれば問題ありません。
+注意にもある通りここから先は広告が表示されます。 私は、Braveという広告をブロックしてくれるブラウザを使っているので真っ白ですが真っ白のところにでかでかと広告が載ってるはずです。どこ押せばいいんや!となりますが、右上に注目。小さく、「Please wait 5 seconds.」と書かれていますね。はい、察しがつくと思いますが、5秒待たないとスキップできません。Youtubeの広告みたいですね。 5秒待つと、右上に「Skip」というボタンが表示されるようになりますのでクリックしましょう。 そうすると、このような画面になりますので今度こそ「Download」ボタンをポチりましょう。 さっきJavaをダウンロードしたみたいにダウンロードしたファイルが表示されます。では、こっからが山場です。相性が良ければ、さっきのようにファイルをクリックすると、 このような画面になります。もし、このような画面になれば、Optifine Installerが表示された場合をご覧ください。それが表示されない場合は、下から該当する現象に合う項目を探してその方法を試してください。該当するものがない場合はまずは、クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出るをご覧ください。
+Optifine Installerが表示された場合 成功です! やりましたね! 3.起動構成の変更 に移動して、残りの設定を済ませてしまいましょう。
+クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出る 残念ながら、Javaとの相性が良くないようです。JDKを入れてみましょう。今回は、Adopt Open JDKというものを使います。本当は、Olacle のOpen JDKを使ってもいいのですが、Javaのバージョン管理が簡単なAdopt Open JDKがおすすめなのでこちらで。 Adopt Open JDKのページ このページに移動したら、まずは、1.'>
+<meta property='og:url' content='https://crysta1221.github.io/p/optifine-intro/'>
+<meta property='og:site_name' content='CrystaWorld'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-02-07T00:18:24&#43;09:00'/><meta property='article:modified_time' content='2023-02-07T00:18:24&#43;09:00'/><meta property='og:image' content='https://crysta1221.github.io/p/optifine-intro/optifine.png' />
+<meta name="twitter:site" content="@Crysta1221">
+    <meta name="twitter:creator" content="@Crysta1221"><meta name="twitter:title" content="Optifine導入解説">
+<meta name="twitter:description" content="Note
+このブログは、Qiitaから移行されたものです。Qiita版をご覧になりたい場合は、以下のURLよりアクセスしてください。
+https://qiita.com/Crysta1221/items/810fa69d8d537054bec1
+はじめに どうもみなさんこんにちは。クリスタです。今回は、「徹底解説! Optifineの導入方法編」ということで、今更ほかのブログでやり方公開されてるのにわざわざ導入方法を書く必要なくね?と思う方も多いはず。 しかし! どのブログも「Optifineの導入に失敗した際の対処法」が少なすぎる! なので、今回は導入の解説もしつつ、失敗した際のパターンをほぼすべてに焦点を当てて解説をする回です。では早速行きましょう!
+1. Javaをインストール ということで、まずはOptifineの導入に必須のJavaから入れていきましょう。すでにパソコンにJavaが入っているという方はこの項目をスキップしてください。 今回は以下のページからインストールしていきます。 Javaのホームページ このページにまずはアクセスしましょう。ブラウザは、サポートの切れたInternet Explorer以外なら何でもいいです。下のようなページに飛ぶはずです。 この、赤枠の「Javaをダウンロード」というボタンをクリックしてください。ダウンロードされます。 Chrome系は上の画像のように左下にダウンロードしたファイルが表示されます。 一方、Edgeだけは特殊で、右上あたりにダウンロードするのがあるんですよね&amp;hellip;中身は同じなのにめんどくさいですね。 とりあえずダウンロードできたら、そのファイルをクリックします。エクスプローラーを開かずに、ブラウザでダウンロードしたファイルが表示されているはずなのでそのファイルをクリックすることで簡単に開けます。
+Warning
+ここから先は管理者の権限が必要です。
+インストールには、管理者権限が必要です。これは不必要にアプリをインストールできないようにする保護機能なので管理者でログインしている場合は、UAC(ユーザーアカウント制御)という「はい」か「いいえ」で選ぶ画面が出てくるはずです。一方、標準ユーザーの場合はここでパスワードが必要です。もし、親が管理しているパソコンであれば、パスワードが必要になることが多いので許可を取ってパスワードを入れてもらいましょう。 実行するとこんな画面が出てきます。 まずはライセンス条項を読みましょう。これは、Javaの利用規約で、簡単に言うと、
+1 2 3 このJavaは商用利用ダメだから個人で利用してね! Javaをインストールしてエラーが起きたらエラーの内容をOlacle(Java開発元)に送るかもだけど その情報の取り扱いについて書いてるから同意するかい? 同意するならインストールボタン押してね! という感じです。軽めに書いてますがちゃんと読みましょう。同意する場合は、「インストール」ボタンを押しましょう。逆に同意しない場合、こっから先には進めないというのは察しがつくと思います。 Javaのインストール完了 という画面が出たら、その画面を閉じましょう。さて、Optifine入れよう!と進めがちですが、一旦パソコンを再起動しましょう。理由は、Javaをインストールした際、そのインストールを必ず適用させるため(つまり失敗しないようにするため)です。中途半端にインストールしてしまうと、Optifineが入らない可能性があります。再起動できたら、次の項目へレッツゴー!
+2. Optifineの導入 さて、今回の山場Optifineの導入に行きます。ここからは完全にパソコンとJavaの相性により、方法が変わります。とりあえず、Optifineをダウンロードしてしまいましょう。以下のページに移動してください。 Optifine公式ページ こんなページになります。 ここから、あなたのバージョンにあったOptifineを入れていくわけですが、今のMinecraftで最新のバージョンは、 1.19.1 です。1.19あるいは1.19.1を入れる場合はそのままでよいわけですが、1.19より前のバージョンはどこ?と思うかもしれません。そのページに「Show all versions」というリンクがありますのでそれを押しましょう。 そうすると、いろいろなバージョンが表示されるようになります。今回は例として、 1.16.5 で解説しますが、どのバージョンでもやり方は同じですのでやり方としてご覧ください。 目的のバージョンのところに「Download」というボタンがあります。ここをクリックしてください。
+Info
+この後のページは広告が表示されます。ですのでこのページに書いてある方法に従ってください。変にクリックするだけで広告のページに飛ばされる恐れがあります。その際は落ちついてその広告ページのタブを閉じれば問題ありません。
+注意にもある通りここから先は広告が表示されます。 私は、Braveという広告をブロックしてくれるブラウザを使っているので真っ白ですが真っ白のところにでかでかと広告が載ってるはずです。どこ押せばいいんや!となりますが、右上に注目。小さく、「Please wait 5 seconds.」と書かれていますね。はい、察しがつくと思いますが、5秒待たないとスキップできません。Youtubeの広告みたいですね。 5秒待つと、右上に「Skip」というボタンが表示されるようになりますのでクリックしましょう。 そうすると、このような画面になりますので今度こそ「Download」ボタンをポチりましょう。 さっきJavaをダウンロードしたみたいにダウンロードしたファイルが表示されます。では、こっからが山場です。相性が良ければ、さっきのようにファイルをクリックすると、 このような画面になります。もし、このような画面になれば、Optifine Installerが表示された場合をご覧ください。それが表示されない場合は、下から該当する現象に合う項目を探してその方法を試してください。該当するものがない場合はまずは、クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出るをご覧ください。
+Optifine Installerが表示された場合 成功です! やりましたね! 3.起動構成の変更 に移動して、残りの設定を済ませてしまいましょう。
+クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出る 残念ながら、Javaとの相性が良くないようです。JDKを入れてみましょう。今回は、Adopt Open JDKというものを使います。本当は、Olacle のOpen JDKを使ってもいいのですが、Javaのバージョン管理が簡単なAdopt Open JDKがおすすめなのでこちらで。 Adopt Open JDKのページ このページに移動したら、まずは、1."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://crysta1221.github.io/p/optifine-intro/optifine.png' />
+    <link rel="shortcut icon" href="/img/crystal.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="メニューを開く・閉じる">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/github_hucf33d49b4286ea6fae814bea6b2760e2_23143_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">CrystaWorld</a></h1>
+            <h2 class="site-description">クリスタの備忘録的ブログ</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Crysta1221'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.patreon.com/CrystaWorld'
+                        target="_blank"
+                        title="Patreon"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-patreon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 3h3v18h-3z" />
+  <circle cx="15" cy="9.5" r="6.5" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Crysta1221'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/downloads/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+  <polyline points="7 11 12 16 17 11" />
+  <line x1="12" y1="4" x2="12" y2="16" />
+</svg>
+                
+                <span>Downloads</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>ダークモード</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目次</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#1-javaをインストール">1. Javaをインストール</a></li>
+    <li><a href="#2-optifineの導入">2. Optifineの導入</a></li>
+    <li><a href="#3-起動構成の変更">3. 起動構成の変更</a></li>
+    <li><a href="#4-終わりに">4. 終わりに</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/optifine-intro/">
+                <img src="/p/optifine-intro/optifine_hue2d636a5d8422cfb6977f11fd7eaaa67_3002399_800x0_resize_box_3.png"
+                        srcset="/p/optifine-intro/optifine_hue2d636a5d8422cfb6977f11fd7eaaa67_3002399_800x0_resize_box_3.png 800w, /p/optifine-intro/optifine_hue2d636a5d8422cfb6977f11fd7eaaa67_3002399_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="417" 
+                        loading="lazy"
+                        alt="Featured image of post Optifine導入解説" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/minecraft/" style="background-color: #FFB900; color: #fff;">
+                Minecraft
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/optifine-intro/">Optifine導入解説</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 07, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    読了時間: 1分
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <style type="text/css">.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}</style>
+<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></symbol><symbol id="note-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="warning-notice" viewBox="0 0 576 512" preserveAspectRatio="xMidYMid meet"><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="info-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></symbol></svg></div><div class="notice note" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#note-notice"></use></svg></span>Note</p><p>このブログは、Qiitaから移行されたものです。Qiita版をご覧になりたい場合は、以下のURLよりアクセスしてください。<br>
+<a class="link" href="https://qiita.com/Crysta1221/items/810fa69d8d537054bec1"  target="_blank" rel="noopener"
+    >https://qiita.com/Crysta1221/items/810fa69d8d537054bec1</a></p></div>
+
+<h1 id="はじめに">はじめに</h1>
+<p>どうもみなさんこんにちは。クリスタです。今回は、「徹底解説! Optifineの導入方法編」ということで、今更ほかのブログでやり方公開されてるのにわざわざ導入方法を書く必要なくね?と思う方も多いはず。
+しかし! どのブログも「<font color="Red"><strong>Optifineの導入に失敗した際の対処法</strong></font>」が少なすぎる!
+なので、今回は導入の解説もしつつ、失敗した際のパターンをほぼすべてに焦点を当てて解説をする回です。では早速行きましょう!</p>
+<h2 id="1-javaをインストール">1. Javaをインストール</h2>
+<p>ということで、まずはOptifineの導入に必須のJavaから入れていきましょう。すでにパソコンにJavaが入っているという方はこの項目をスキップしてください。
+今回は以下のページからインストールしていきます。
+<a class="link" href="https://www.java.com/ja/download/"  target="_blank" rel="noopener"
+    >Javaのホームページ</a>
+このページにまずはアクセスしましょう。ブラウザは、サポートの切れたInternet Explorer以外なら何でもいいです。下のようなページに飛ぶはずです。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/713b6a8f-44fe-a522-d997-4c98c4b8ae39.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+この、赤枠の「Javaをダウンロード」というボタンをクリックしてください。ダウンロードされます。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/798bd9dc-c2f2-a6f6-f73c-f33cd431110f.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+Chrome系は上の画像のように<font color="red">左下にダウンロードしたファイルが表示されます</font>。
+一方、Edgeだけは特殊で、右上あたりにダウンロードするのがあるんですよね&hellip;中身は同じなのにめんどくさいですね。
+とりあえずダウンロードできたら、そのファイルをクリックします。エクスプローラーを開かずに、ブラウザでダウンロードしたファイルが表示されているはずなのでそのファイルをクリックすることで簡単に開けます。</p>
+<div class="notice warning" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#warning-notice"></use></svg></span>Warning</p><p>ここから先は管理者の権限が必要です。</p></div>
+
+<p>インストールには、管理者権限が必要です。これは不必要にアプリをインストールできないようにする保護機能なので管理者でログインしている場合は、UAC(ユーザーアカウント制御)という「はい」か「いいえ」で選ぶ画面が出てくるはずです。一方、標準ユーザーの場合はここでパスワードが必要です。もし、親が管理しているパソコンであれば、パスワードが必要になることが多いので許可を取ってパスワードを入れてもらいましょう。
+実行するとこんな画面が出てきます。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/545c32c6-e38c-0a71-4526-6e619a54c5c9.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+まずはライセンス条項を読みましょう。これは、Javaの利用規約で、簡単に言うと、</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">このJavaは商用利用ダメだから個人で利用してね! 
+</span></span><span class="line"><span class="cl">Javaをインストールしてエラーが起きたらエラーの内容をOlacle(Java開発元)に送るかもだけど
+</span></span><span class="line"><span class="cl">その情報の取り扱いについて書いてるから同意するかい? 同意するならインストールボタン押してね!
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>という感じです。軽めに書いてますがちゃんと読みましょう。同意する場合は、「インストール」ボタンを押しましょう。逆に同意しない場合、こっから先には進めないというのは察しがつくと思います。
+Javaのインストール完了 という画面が出たら、その画面を閉じましょう。さて、Optifine入れよう!と進めがちですが、<strong>一旦パソコンを再起動</strong>しましょう。理由は、Javaをインストールした際、そのインストールを必ず適用させるため(つまり失敗しないようにするため)です。中途半端にインストールしてしまうと、Optifineが入らない可能性があります。再起動できたら、次の項目へレッツゴー!</p>
+<h2 id="2-optifineの導入">2. Optifineの導入</h2>
+<p>さて、今回の山場Optifineの導入に行きます。ここからは完全に<strong>パソコンとJavaの相性</strong>により、方法が変わります。とりあえず、Optifineをダウンロードしてしまいましょう。以下のページに移動してください。
+<a class="link" href="https://optifine.net/downloads"  target="_blank" rel="noopener"
+    >Optifine公式ページ</a>
+こんなページになります。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/31f46862-7d6f-c448-e343-c76ae0313651.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+ここから、あなたのバージョンにあったOptifineを入れていくわけですが、今のMinecraftで最新のバージョンは、 <code>1.19.1</code> です。1.19あるいは1.19.1を入れる場合はそのままでよいわけですが、1.19より前のバージョンはどこ?と思うかもしれません。そのページに「Show all versions」というリンクがありますのでそれを押しましょう。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/1757c2d6-b8d8-9f3f-789f-24c4647be000.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+そうすると、いろいろなバージョンが表示されるようになります。今回は例として、 <code>1.16.5</code> で解説しますが、どのバージョンでもやり方は同じですのでやり方としてご覧ください。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/e7762219-ddde-9562-a24a-30e031b9ba90.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+></p>
+<p>目的のバージョンのところに「Download」というボタンがあります。ここをクリックしてください。</p>
+<div class="notice info" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#info-notice"></use></svg></span>Info</p><p>この後のページは広告が表示されます。ですのでこのページに書いてある方法に従ってください。変にクリックするだけで広告のページに飛ばされる恐れがあります。その際は落ちついてその広告ページのタブを閉じれば問題ありません。</p></div>
+
+<p>注意にもある通りここから先は広告が表示されます。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/7a6d9d6c-345b-2eed-0a09-615baf2d2211.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+私は、Braveという広告をブロックしてくれるブラウザを使っているので真っ白ですが真っ白のところにでかでかと広告が載ってるはずです。どこ押せばいいんや!となりますが、右上に注目。小さく、「Please wait 5 seconds.」と書かれていますね。はい、察しがつくと思いますが、5秒待たないとスキップできません。Youtubeの広告みたいですね。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/05bb40de-a61b-fbb1-6ad9-f7a25baac877.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+5秒待つと、右上に「Skip」というボタンが表示されるようになりますのでクリックしましょう。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/ad635e17-6dbd-2018-d28f-b3a5ee14676f.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+そうすると、このような画面になりますので今度こそ「Download」ボタンをポチりましょう。
+さっきJavaをダウンロードしたみたいにダウンロードしたファイルが表示されます。では、こっからが山場です。相性が良ければ、さっきのようにファイルをクリックすると、
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/c952bc13-d76b-3a50-2d65-46ba0ed79ae7.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+このような画面になります。もし、このような画面になれば、Optifine Installerが表示された場合をご覧ください。それが表示されない場合は、下から該当する現象に合う項目を探してその方法を試してください。該当するものがない場合はまずは、<code>クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出る</code>をご覧ください。</p>
+<details><summary>Optifine Installerが表示された場合</summary>
+<p>成功です! やりましたね! <a class="link" href="#3-%e8%b5%b7%e5%8b%95%e6%a7%8b%e6%88%90%e3%81%ae%e5%a4%89%e6%9b%b4" >3.起動構成の変更</a> に移動して、残りの設定を済ませてしまいましょう。</p>
+</details>
+<details><summary>クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出る</summary>
+<p>残念ながら、Javaとの相性が良くないようです。JDKを入れてみましょう。今回は、Adopt Open JDKというものを使います。本当は、Olacle のOpen JDKを使ってもいいのですが、Javaのバージョン管理が簡単なAdopt Open JDKがおすすめなのでこちらで。
+<a class="link" href="https://adoptopenjdk.net/"  target="_blank" rel="noopener"
+    >Adopt Open JDKのページ</a>
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/b42a2f1f-7fdb-2798-2e59-fece4d1d26d7.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+このページに移動したら、まずは、1. Choose a version という項目があるので、それを一番下の「Open JDK 16(Latest)」にします。「Open JDK 16(Latest)」をクリックすると、選択できます。2はそのままでOKです。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/cfee6388-4859-f5db-b9de-fc040f0a1067.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+上のようになったら、あとは赤枠のボタンを押してください。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/f48b6353-8d3e-d032-dfa4-2af68fe343aa.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+今度はこんなページに飛ばされます。少し下にスクロールして下の画像と同じ場所まで移動してください。
+Windowsの場合は、Windows x64 というものを探します。ここではWindowsで説明します。Mac、Linuxの場合も同様に探してください。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/f13ca58a-8692-8680-b224-411fe8c501c9.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+Windowsの場合、上の画面まで行けたら、「Msi」というボタンを押してください。Msiというのはインストーラのことで、自動でJavaを入れてくれる便利なものです。ZipはインストールするものでなくJavaをそのままZipにしただけのものです。クリックすると、1.同様にダウンロードされます。またそれをクリックして実行します。
+これも管理者権限が必要です。実行すると、以下の画面になります。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/2ca5c7c9-f392-ec2c-f3e2-225d0421f8fc.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+Adopt Open JDK 11の画面ですが、16も変わりはありません。「次へ」をクリックします。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/c00c8ba4-160e-1e96-5dbe-4bff5e9bad20.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+まず、<code>Set JAVA_HOME variable</code> を有効にします。×ボタンをクリックして、<code>ローカルハードドライブにインストール</code> をクリックして有効にします。
+次に、その下、<code>JavaSoft(Olacle) registory keys</code> も同じようにしてローカルハードドライブにインストールにしてください。その後、「次へ」をクリックし、その後「インストール」をクリックしてください。
+これで、Adopt Open JDKがインストールされます。インストール完了と表示されたらまたパソコンを再起動します。再起動後、エクスプローラーを開きます。その後、ダウンロードをクリックします。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/67b4924b-634b-9a87-9f7d-080af7bb4584.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+その中にある、「Optifine～」で始まるファイルを探します。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/51e81979-05ad-f00f-fdc3-2619ff793ab9.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+見つかったらダブルクリックして開きます。もし、成功していれば、2.Optifineの導入の一番下にある画像のようなものが表示されるはずです。それでもダメな場合、次の項目「Adopt Open JDKでも失敗する」を参照してください。</p>
+</details>
+<details><summary>Adopt Open JDKでも失敗する場合</summary>
+<p>今後はコマンドプロンプトを使います。前提として、Javaのインストールが完了していることです。
+まずは、WindowsキーあるいはWindowsの画面の左下にあるスタートボタンを押します。その後、<code>cmd</code> と入れると、<code>Windows コマンドプロンプト</code>というのが検索に引っ掛かりますのでそれをクリックするか、「開く」で開いてください。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/63a55130-25bf-0090-76bb-349ac8baafb6.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+こんなちょっとかっちょいい画面が出てきましたか? そうしたら、試しにどのように使うかデモンストレーション代わりに以下のコマンドを入れてみましょう。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bat" data-lang="bat"><span class="line"><span class="cl">java -version
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>入れたら、Enterで実行します。そうすると、Javaのバージョンが表示されるはずです。私の場合、</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cs" data-lang="cs"><span class="line"><span class="cl"><span class="n">openjdk</span> <span class="n">version</span> <span class="s">&#34;16.0.2&#34;</span> <span class="m">2021</span><span class="p">-</span><span class="m">07</span><span class="p">-</span><span class="m">20</span>
+</span></span><span class="line"><span class="cl"><span class="n">OpenJDK</span> <span class="n">Runtime</span> <span class="n">Environment</span> <span class="n">Temurin</span><span class="p">-</span><span class="m">16.0</span><span class="p">.</span><span class="m">2</span><span class="p">+</span><span class="m">7</span> <span class="p">(</span><span class="n">build</span> <span class="m">16.0</span><span class="p">.</span><span class="m">2</span><span class="p">+</span><span class="m">7</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">OpenJDK</span> <span class="m">64</span><span class="p">-</span><span class="n">Bit</span> <span class="n">Server</span> <span class="n">VM</span> <span class="n">Temurin</span><span class="p">-</span><span class="m">16.0</span><span class="p">.</span><span class="m">2</span><span class="p">+</span><span class="m">7</span> <span class="p">(</span><span class="n">build</span> <span class="m">16.0</span><span class="p">.</span><span class="m">2</span><span class="p">+</span><span class="m">7</span><span class="p">,</span> <span class="n">mixed</span> <span class="n">mode</span><span class="p">,</span> <span class="n">sharing</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>と表示されます。<code>'java' は、内部コマンドまたは外部コマンド、操作可能なプログラムまたはバッチ ファイルとして認識されていません。</code> と表示された場合、まずJavaのインストールをしていないか、失敗しているかの2択ですのでインストール/再インストールをしましょう。再インストールは一度Javaをアンインストールしてから再度インストールすることです。もし、Javaのバージョンが表示されたら、次は以下のコマンドを入れましょう。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bat" data-lang="bat"><span class="line"><span class="cl">java -jar
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>これを入れたら、<code>-jar</code>の後にスペースを押してください。その後、Optifineのファイルをコマンドプロンプトの画面にドロップします。どうドロップするか。Optifineのファイルをクリックしたまま、コマンドプロンプトの画面までマウスカーソルを移動させ、コマンドプロンプトの画面のどこかにマウスカーソルが来たら、離します。そうすると全体のコマンドは以下のようになるはずです。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bat" data-lang="bat"><span class="line"><span class="cl">java -jar c:\Users\<span class="p">&lt;</span>パソコンのユーザ名<span class="p">&gt;</span>\Downloads\Optifine~ .jar
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>こうなってたらOKです。Enterを押してください。そうすると、2.Optifineの導入の一番下のOptifine Installerという画面が出るはずです。
+もし、これをやっても無理!という場合はコメント欄に「やったこと」を記述し可能であればスクショを添付していただくと説明します。</p>
+</details>
+<details><summary>Javaをインストールできません。スイッチに失敗しましたと表示された場合</summary>
+<p>Javaのインストールが完了していないまま続行したためJarファイルを開けなくなっています。一度コントロールパネルからJavaをアンインストールし、再度インストールしてみてください。</p>
+</details>
+<h2 id="3-起動構成の変更">3. 起動構成の変更</h2>
+<p>さて、今回の山場は過ぎました。ここで注意し忘れていたのですが、</p>
+<div class="notice warning" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#warning-notice"></use></svg></span>Warning</p><p>Optifine Installerを起動する前に、一度マイクラのランチャーからそのバージョンを起動している必要があります。つまり、1.16.5のOptifineを入れる場合は、1.16.5のマイクラを起動している必要があります。</p></div>
+
+<p>こういうことです。起動したらもう閉じてOKです。その後、Optifine Installerの「Install」というボタンを押します。 <code>Install Optifine~ successly!</code> みたいに表示されたらOptifineの導入は終わりです。お疲れ様でした。後は、マイクラのランチャーとマイクラの画面を閉じて、ランチャーを起動すると、起動構成にOptifineが追加されています。
+さて、終わりでもいいのですが、複数のOptifineを利用する予定の場合は、フォルダ分けをしてしまいましょう。
+ランチャーを開き、起動構成に移動します。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/e410c52b-0131-1ae1-aede-bd10d35ec02a.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+こうすると、Optifineの起動の設定ができます。
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/82114994-8b85-ac56-00b2-63e86dc9913f.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+重要なのはゲームディレクトリです。既定のディレクトリにすると、いちいち起動構成を変更する必要があります。また、リソパの管理、マイクラのバージョン管理も面倒になります。参照ボタンを押すと、
+<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/e5556680-b2bb-21f6-503f-b60f6e59cb98.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="image.png"
+	
+	
+>
+このようになりますので、まずは、<code>Roaming</code> というフォルダをクリックし、「新しいフォルダを作成」ボタンを押して、フォルダを作成します。フォルダの名前はわかりやすいものがいいです。作成したら、作成したフォルダを選択して、「OK」を押します。その後、ゲームディレクトリや名前、バージョンなどの画面になったら「保存」ボタンを押します。これで再度「プレイ」を押すことで今度こそ導入は終わりです。お疲れ様でした!</p>
+<h2 id="4-終わりに">4. 終わりに</h2>
+<p>いかがでしたか?無事Optifineは入れられましたでしょうか? 一応失敗する方向けに書かせていただきましたが、もしここに書いてる方法でもうまくいかない場合は、プロフィールのお問い合わせよりお願いします! Twitterもやっていますのでフォローのほどよろしくお願いします。
+それでは次回でお会いしましょう!</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2018 - 
+        
+        2023 CrystaWorld
+    </section>
+    
+    <section class="powerby">
+        
+            コンテンツの無断転載を禁じます <br/>
+        Made by Hugo. <br />
+        Published by CrystaWorld. All rights reserved.
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
