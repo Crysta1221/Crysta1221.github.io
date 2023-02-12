@@ -1,1 +1,2 @@
-Example site modified from https://github.com/gohugoio/hugoBasicExample
+https://crysta1221.github.io のリポジトリページです  
+Hugo,Stackを利用したブログコンテンツです
