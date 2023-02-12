@@ -6,7 +6,7 @@ slug: Optifine-intro
 image: optifine.png
 categories:
     - Minecraft
-
+readingtime: false
 ---
 {{< notice note >}}
 このブログは、Qiitaから移行されたものです。Qiita版をご覧になりたい場合は、以下のURLよりアクセスしてください。  

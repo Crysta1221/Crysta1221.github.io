@@ -6,7 +6,114 @@
         <description>Recent content in Posts on CrystaWorld</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Tue, 07 Feb 2023 00:18:24 +0900</lastBuildDate><atom:link href="https://crysta1221.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://crysta1221.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【Minecraft】畳サーバーとは?</title>
+        <link>https://crysta1221.github.io/p/tatami-server/</link>
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://crysta1221.github.io/p/tatami-server/</guid>
+        <description>&lt;img src="https://crysta1221.github.io/p/tatami-server/contents1.png" alt="Featured image of post 【Minecraft】畳サーバーとは?" /&gt;&lt;p&gt;みなさんこんばんは。クリスタです。今回は私がいる畳サーバーというサーバーについて紹介したいと思います!&lt;/p&gt;
+&lt;h2 id=&#34;畳サーバーについて&#34;&gt;畳サーバーについて&lt;/h2&gt;
+&lt;p&gt;畳サーバーは、統合版・Java版・スマホ版どれでも参加できる公開マインクラフトサーバーです。Nintendo Switchでも設定を変更すれば
+参加することができます!畳サーバーに入るには畳サーバー公式Discordに参加する必要があります。
+&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;
+&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice info&#34; &gt;
+&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#info-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Info&lt;/p&gt;&lt;p&gt;Discordの利用規約上13歳以上ではないと参加することができません!&lt;/p&gt;&lt;/div&gt;
+
+詳しくは&lt;a class=&#34;link&#34; href=&#34;https://tatamiserver.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;コチラ&lt;/a&gt;から畳サーバー公式ホームページをチェック!&lt;/p&gt;
+&lt;h2 id=&#34;何をするところ&#34;&gt;何をするところ?&lt;/h2&gt;
+&lt;p&gt;畳サーバーではイベントから生活まで様々なコンテンツを用意しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;逃走中やPvPで楽しめるイベントサーバー&lt;/li&gt;
+&lt;li&gt;お金の概念がある生活サーバー&lt;/li&gt;
+&lt;li&gt;ミニゲームが楽しめる24時間イベントサーバー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;不定期開催!イベントサーバー!&lt;/strong&gt;&lt;br&gt;
+不定期で開催されるイベントサーバー!逃走中・PvP・鬼ごっこ・マイクラバカ人狼など、いろんなイベントが楽しめます！
+しかもどれもクオリティが高くオリジナル要素も含まれているのでハマること間違いなし!
+ほかにもどんなイベントがあるかはコチラからチェック!&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://tatamiserver.com/event.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://tatamiserver.com/event.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;24時間イベントサーバーでできること&lt;/strong&gt;&lt;br&gt;
+24時間イベントサーバーと呼ばれ、高難易度イベント「チャレンジタワー」や新感覚弓PvP「Knock Shot」といったミニゲームが楽しめます!
+&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents/content02.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;991&#34;
+	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents/content02_hu1d50d1d24b83c1dfa5a660f1dcf553ba_632215_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents/content02_hu1d50d1d24b83c1dfa5a660f1dcf553ba_632215_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;チャレンジタワー&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;br&gt;
+▲チャレンジタワーの様子&lt;br&gt;
+&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents/content03.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;991&#34;
+	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents/content03_hu15e0b631312926f58d7c0675747c901f_1083549_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents/content03_hu15e0b631312926f58d7c0675747c901f_1083549_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;KnockShot&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;br&gt;
+▲Knock Shotのバトルエリア&lt;br&gt;
+&lt;br&gt;
+チャレンジタワーは一日一回のみ参加可能!(午前3時リセット) KnockShotはいつでも遊べます!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;24時間いつでも遊べる生活サーバー!&lt;/strong&gt;&lt;br&gt;
+最後に畳サーバーのメインコンテンツの一つ、生活サーバーを紹介!
+生活サーバーには土地が空いていればあなただけの土地を確保でき、自由な建築ができます!もちろん、資源ワールドで探検、お金集めもでき、ガチャチケット
+を買ってレアなアイテムを狙おう! (レアなエンチャント付き武器や装備などがごくまれに手に入るぞ!)&lt;br&gt;
+&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents/content01.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;991&#34;
+	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents/content01_hu335b89f8f0e51061bfd53a9bd206a969_2693149_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents/content01_hu335b89f8f0e51061bfd53a9bd206a969_2693149_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;生活サーバーの様子&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents1.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;991&#34;
+	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents1_hu97e468769a8c83f5d20714cf8abe3739_1670998_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents1_hu97e468769a8c83f5d20714cf8abe3739_1670998_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;取引所&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;運営募集中&#34;&gt;運営募集中!&lt;/h2&gt;
+&lt;p&gt;畳サーバーでは運営を募集しています。「サーバー運営に携わってみたい!」、「イベントを作りたい!」など、少しでも興味がありましたら&lt;a class=&#34;link&#34; href=&#34;https://mineidea.net/projects/6160894485&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;コチラ&lt;/a&gt;からどうぞ！
+サーバー運営では生活サーバーを中心に不具合や窃盗などの被害に対応するのが主な仕事です。難しいと思うかもしれませんが慣れると楽しくなりますよ!&lt;br&gt;
+イベントを作ってみたい場合、建築するか・コマンドを作るかどちらかになります。コマンドの場合、データパックというものを主に作っていただくことになります。
+プログラミングなんてしたことない&amp;hellip;でも作ってみたい! 安心してください! データパックを学ぶことのできる講座がありますので好きな時間に学ぶことができます!&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;少しでも気になった&amp;hellip;参加してみたい&amp;hellip;!などありましたら、ぜひご参加ください! 心強いマインクラフターがあなたを待っていますよ!&lt;br&gt;
+これからも不定期で畳サーバーに関する記事を書いていきますのでよければご確認ください! それでは次回の記事でお会いしましょう!&lt;br&gt;
+さようなら!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Optifine導入解説</title>
         <link>https://crysta1221.github.io/p/optifine-intro/</link>
         <pubDate>Tue, 07 Feb 2023 00:18:24 +0900</pubDate>
@@ -372,111 +479,6 @@ Adopt Open JDK 11の画面ですが、16も変わりはありません。「次�
 &lt;h2 id=&#34;4-終わりに&#34;&gt;4. 終わりに&lt;/h2&gt;
 &lt;p&gt;いかがでしたか?無事Optifineは入れられましたでしょうか? 一応失敗する方向けに書かせていただきましたが、もしここに書いてる方法でもうまくいかない場合は、プロフィールのお問い合わせよりお願いします! Twitterもやっていますのでフォローのほどよろしくお願いします。
 それでは次回でお会いしましょう!&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>畳サーバーとは?</title>
-        <link>https://crysta1221.github.io/p/tatami-server/</link>
-        <pubDate>Tue, 07 Feb 2023 00:18:24 +0900</pubDate>
-        
-        <guid>https://crysta1221.github.io/p/tatami-server/</guid>
-        <description>&lt;img src="https://crysta1221.github.io/p/tatami-server/contents1.png" alt="Featured image of post 畳サーバーとは?" /&gt;&lt;p&gt;みなさんこんばんは。クリスタです。今回は私がいる畳サーバーというサーバーについて紹介したいと思います!&lt;/p&gt;
-&lt;h2 id=&#34;畳サーバーについて&#34;&gt;畳サーバーについて&lt;/h2&gt;
-&lt;p&gt;畳サーバーは、統合版・Java版・スマホ版どれでも参加できる公開マインクラフトサーバーです。Nintendo Switchでも設定を変更すれば
-参加することもできます!畳サーバーに入るにはDiscordというコミュニケーションツールに登録して畳サーバー公式Discordに参加する必要があります。
-&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;
-&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice info&#34; &gt;
-&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#info-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Info&lt;/p&gt;&lt;p&gt;Discordの利用規約上13歳以上ではないと参加することができません! 13歳に達してない方は13歳に達してから参加しましょう!&lt;/p&gt;&lt;/div&gt;
-
-参加方法はこのページの一番最後のリンクから公式ホームページに移動できますのでそちらからご覧ください!&lt;/p&gt;
-&lt;h2 id=&#34;何をするところ&#34;&gt;何をするところ?&lt;/h2&gt;
-&lt;p&gt;畳サーバーではイベントから生活サーバーまでいろいろなことができます!主に以下のものがあります。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;24時間いつでも遊べるサーバー&lt;/li&gt;
-&lt;li&gt;逃走中、PvPなんでもできるイベントサーバー(不定期開催)&lt;/li&gt;
-&lt;li&gt;24時間参加できる生活サーバー&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;まずは24時間いつでも遊べるサーバーとはなんなのか&amp;hellip;?&lt;/strong&gt;&lt;br&gt;
-24時間サーバーと呼ばれ、高難易度イベント「チャレンジタワー」や新感覚弓PvP「Knock Shot」といったミニゲームが楽しめます!
-&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents/content02.png&#34;
-	width=&#34;1920&#34;
-	height=&#34;991&#34;
-	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents/content02_hu1d50d1d24b83c1dfa5a660f1dcf553ba_632215_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents/content02_hu1d50d1d24b83c1dfa5a660f1dcf553ba_632215_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;チャレンジタワー&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;193&#34;
-		data-flex-basis=&#34;464px&#34;
-	
-&gt;&lt;br&gt;
-▲チャレンジタワーの様子&lt;br&gt;
-&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents/content03.png&#34;
-	width=&#34;1920&#34;
-	height=&#34;991&#34;
-	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents/content03_hu15e0b631312926f58d7c0675747c901f_1083549_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents/content03_hu15e0b631312926f58d7c0675747c901f_1083549_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;KnockShot&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;193&#34;
-		data-flex-basis=&#34;464px&#34;
-	
-&gt;&lt;br&gt;
-▲Knock Shotのバトルエリア&lt;br&gt;
-&lt;br&gt;
-チャレンジタワーは一日一回のみ参加可能!(午前3時リセット) KnockShotはいつでも遊べます!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;不定期開催!イベントサーバー!&lt;/strong&gt;&lt;br&gt;
-不定期で開催(鯖主の都合もあり)されるイベントサーバー!逃走中から鬼ごっこ、PvP、人狼までちょっとしたミニゲームがなんでもできます!
-しかもどれもクオリティが高くオリジナル要素も含まれているのでハマること間違いなし!
-ほかにもどんなイベントがあるかはコチラからチェック!&lt;br&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://tatamiserver.com/event.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://tatamiserver.com/event.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;24時間いつでも遊べる生活サーバー!&lt;/strong&gt;&lt;br&gt;
-最後に畳サーバーのメインコンテンツの一つ、生活サーバーを紹介! 畳サーバーに入って生活サーバーのポータルに参加すると生活サーバーにログインできます!
-生活サーバーには土地が空いていればあなただけの土地を確保でき、自由な建築ができます!もちろん、資源ワールドで探検、お金集めもでき、ガチャチケット
-を買って一攫千金を狙おう! (レアなエンチャント付き武器や装備などがごくまれに手に入るぞ!)&lt;br&gt;
-&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents/content01.png&#34;
-	width=&#34;1920&#34;
-	height=&#34;991&#34;
-	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents/content01_hu335b89f8f0e51061bfd53a9bd206a969_2693149_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents/content01_hu335b89f8f0e51061bfd53a9bd206a969_2693149_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;生活サーバーの様子&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;193&#34;
-		data-flex-basis=&#34;464px&#34;
-	
-&gt;&lt;br&gt;
-&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents1.png&#34;
-	width=&#34;1920&#34;
-	height=&#34;991&#34;
-	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents1_hu97e468769a8c83f5d20714cf8abe3739_1670998_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents1_hu97e468769a8c83f5d20714cf8abe3739_1670998_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;取引所&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;193&#34;
-		data-flex-basis=&#34;464px&#34;
-	
-&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&#34;運営募集中&#34;&gt;運営募集中!&lt;/h2&gt;
-&lt;p&gt;畳サーバーでは運営を募集中です! 「サーバー運営に携わってみたい!」、「イベントを作りたい!」など少しでも気になりましたらMineideaに詳細が記載されて
-いますのでぜひご確認ください!(このページの一番最後にあります)&lt;br&gt;
-サーバー運営では生活サーバーを中心に不具合や窃盗などの被害に対応するのが主な仕事です。難しいと思うかもしれませんが慣れると楽しくなりますよ!&lt;br&gt;
-イベントを作ってみたい場合、建築するか・コマンドを作るかどちらかになります。コマンドの場合、データパックというものを主に作っていただくことになります。
-プログラミングなんてしたことない&amp;hellip;でも作ってみたい! 安心してください! データパックを学ぶことのできる講座がありますので好きな時間に学ぶことができます!&lt;/p&gt;
-&lt;h2 id=&#34;さいごに&#34;&gt;さいごに&lt;/h2&gt;
-&lt;p&gt;少しでも気になった&amp;hellip;参加してみたい&amp;hellip;!などありましたら、ぜひご参加ください! 心強いマインクラフターがあなたを待っていますよ!&lt;br&gt;
-それでは次回の記事でお会いしましょう! さようなら!&lt;/p&gt;
 </description>
         </item>
         
