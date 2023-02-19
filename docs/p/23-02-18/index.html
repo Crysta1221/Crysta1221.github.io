@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='はじめに お久しぶりです。クリスタです。今回は、「弓ごとに別々の効果を発動させる」という方法をご紹介したいと思います。 例えば、炎の弓、氷の弓、雷の弓のように弓を複数使うかつ別々の効果を起こしたい場合、それぞれどの弓から発射されたら炎にするかどうかを調べるのは 大変です。
+そこで今回は海外のサイトで見つけた方法をご紹介したいと思います。
+方法とは&amp;hellip; 具体的にどのようにして区別させるか&amp;hellip;なのですが、今回はクロスボウを使います。なぜクロスボウかというと、クロスボウはコマンドで装填済みの矢を 決めることができます。そして今回はこの装填済みの矢のNBTを調べて区別するというわけです。 今回はクロスボウにminecraft:tripped_arrowを装填させます。このtripped_arrowは何かというと効能付き矢のことです。これはクリエイティブで実際に出すことができます。さらに、この効能付きの矢ですが、NBTにcolorというのがあります。これは効能付き矢の色を決めるものでRGBで決められます。この矢の色でどの効果をもたらすのかを判別します。
+ここで一つ難点があります。矢のNBTにはcolorがあるのですが、クロスボウには全く同じものはありません。Minecraftは、クロスボウの装填前の矢と発射後の矢でNBTが変わるという厄介な点があります。
+クロスボウで装填前の矢のNBTは、{CustomPotionColor:255}になりますが、発射されるとこれが、{Color:255}に変化します。
+まずは{CustomPotionColor:255}を設定したクロスボウをgiveで取得します。(このコマンドをコピー後、貼り付ける前に/を入れてください)
+1 give @p crossbow{ChargedProjectiles:[{id:&amp;#34;minecraft:tipped_arrow&amp;#34;,Count:1b,tag:{CustomPotionColor:255}},{},{}],Charged:1b} 1 次にコマンドブロックを用意します。これもgiveで取得します。(このコマンドをコピー後、貼り付ける前に/を入れてください)
+1 give @p command_block コマンドブロックの中は次のコマンドを入れてください。
+1 2 #リピート、常時実行 execute as @e[type=arrow,nbt={Color:255,inGround:1b}] at @s run &amp;lt;実行したい内容&amp;gt; これは、executeで、色が255で地面に着いた矢としてコマンドを実行するものです。
+これを改造することでこんなこともできます。
+1 2 3 4 5 execute as @e[type=arrow,nbt={Color:255,inGround:1b}] at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:[&amp;#34;aqua&amp;#34;]} execute as @e[type=armor_stand,tag=aqua] at @s run scoreboard players add @s Aqua 1 execute as @e[type=armor_stand,tag=aqua,scores={Aqua=..1200}] at @s run fill ~ ~1 ~ ~ ~ ~ water keep execute as @e[type=armor_stand,tag=aqua,scores={Aqua=1200.'>
+<title>【備忘録】弓ごとに別々の効果を発動させる</title>
+
+<link rel='canonical' href='https://crysta1221.github.io/p/23-02-18/'>
+
+<link rel="stylesheet" href="/scss/style.min.5a777f0ded082419b1106a6caa8256b541a9ed4ce74fe518797f50f68dac5380.css"><meta property='og:title' content='【備忘録】弓ごとに別々の効果を発動させる'>
+<meta property='og:description' content='はじめに お久しぶりです。クリスタです。今回は、「弓ごとに別々の効果を発動させる」という方法をご紹介したいと思います。 例えば、炎の弓、氷の弓、雷の弓のように弓を複数使うかつ別々の効果を起こしたい場合、それぞれどの弓から発射されたら炎にするかどうかを調べるのは 大変です。
+そこで今回は海外のサイトで見つけた方法をご紹介したいと思います。
+方法とは&amp;hellip; 具体的にどのようにして区別させるか&amp;hellip;なのですが、今回はクロスボウを使います。なぜクロスボウかというと、クロスボウはコマンドで装填済みの矢を 決めることができます。そして今回はこの装填済みの矢のNBTを調べて区別するというわけです。 今回はクロスボウにminecraft:tripped_arrowを装填させます。このtripped_arrowは何かというと効能付き矢のことです。これはクリエイティブで実際に出すことができます。さらに、この効能付きの矢ですが、NBTにcolorというのがあります。これは効能付き矢の色を決めるものでRGBで決められます。この矢の色でどの効果をもたらすのかを判別します。
+ここで一つ難点があります。矢のNBTにはcolorがあるのですが、クロスボウには全く同じものはありません。Minecraftは、クロスボウの装填前の矢と発射後の矢でNBTが変わるという厄介な点があります。
+クロスボウで装填前の矢のNBTは、{CustomPotionColor:255}になりますが、発射されるとこれが、{Color:255}に変化します。
+まずは{CustomPotionColor:255}を設定したクロスボウをgiveで取得します。(このコマンドをコピー後、貼り付ける前に/を入れてください)
+1 give @p crossbow{ChargedProjectiles:[{id:&amp;#34;minecraft:tipped_arrow&amp;#34;,Count:1b,tag:{CustomPotionColor:255}},{},{}],Charged:1b} 1 次にコマンドブロックを用意します。これもgiveで取得します。(このコマンドをコピー後、貼り付ける前に/を入れてください)
+1 give @p command_block コマンドブロックの中は次のコマンドを入れてください。
+1 2 #リピート、常時実行 execute as @e[type=arrow,nbt={Color:255,inGround:1b}] at @s run &amp;lt;実行したい内容&amp;gt; これは、executeで、色が255で地面に着いた矢としてコマンドを実行するものです。
+これを改造することでこんなこともできます。
+1 2 3 4 5 execute as @e[type=arrow,nbt={Color:255,inGround:1b}] at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:[&amp;#34;aqua&amp;#34;]} execute as @e[type=armor_stand,tag=aqua] at @s run scoreboard players add @s Aqua 1 execute as @e[type=armor_stand,tag=aqua,scores={Aqua=..1200}] at @s run fill ~ ~1 ~ ~ ~ ~ water keep execute as @e[type=armor_stand,tag=aqua,scores={Aqua=1200.'>
+<meta property='og:url' content='https://crysta1221.github.io/p/23-02-18/'>
+<meta property='og:site_name' content='CrystaWorld'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-02-18T00:18:24&#43;09:00'/><meta property='article:modified_time' content='2023-02-18T00:18:24&#43;09:00'/>
+<meta name="twitter:site" content="@Crysta1221">
+    <meta name="twitter:creator" content="@Crysta1221"><meta name="twitter:title" content="【備忘録】弓ごとに別々の効果を発動させる">
+<meta name="twitter:description" content="はじめに お久しぶりです。クリスタです。今回は、「弓ごとに別々の効果を発動させる」という方法をご紹介したいと思います。 例えば、炎の弓、氷の弓、雷の弓のように弓を複数使うかつ別々の効果を起こしたい場合、それぞれどの弓から発射されたら炎にするかどうかを調べるのは 大変です。
+そこで今回は海外のサイトで見つけた方法をご紹介したいと思います。
+方法とは&amp;hellip; 具体的にどのようにして区別させるか&amp;hellip;なのですが、今回はクロスボウを使います。なぜクロスボウかというと、クロスボウはコマンドで装填済みの矢を 決めることができます。そして今回はこの装填済みの矢のNBTを調べて区別するというわけです。 今回はクロスボウにminecraft:tripped_arrowを装填させます。このtripped_arrowは何かというと効能付き矢のことです。これはクリエイティブで実際に出すことができます。さらに、この効能付きの矢ですが、NBTにcolorというのがあります。これは効能付き矢の色を決めるものでRGBで決められます。この矢の色でどの効果をもたらすのかを判別します。
+ここで一つ難点があります。矢のNBTにはcolorがあるのですが、クロスボウには全く同じものはありません。Minecraftは、クロスボウの装填前の矢と発射後の矢でNBTが変わるという厄介な点があります。
+クロスボウで装填前の矢のNBTは、{CustomPotionColor:255}になりますが、発射されるとこれが、{Color:255}に変化します。
+まずは{CustomPotionColor:255}を設定したクロスボウをgiveで取得します。(このコマンドをコピー後、貼り付ける前に/を入れてください)
+1 give @p crossbow{ChargedProjectiles:[{id:&amp;#34;minecraft:tipped_arrow&amp;#34;,Count:1b,tag:{CustomPotionColor:255}},{},{}],Charged:1b} 1 次にコマンドブロックを用意します。これもgiveで取得します。(このコマンドをコピー後、貼り付ける前に/を入れてください)
+1 give @p command_block コマンドブロックの中は次のコマンドを入れてください。
+1 2 #リピート、常時実行 execute as @e[type=arrow,nbt={Color:255,inGround:1b}] at @s run &amp;lt;実行したい内容&amp;gt; これは、executeで、色が255で地面に着いた矢としてコマンドを実行するものです。
+これを改造することでこんなこともできます。
+1 2 3 4 5 execute as @e[type=arrow,nbt={Color:255,inGround:1b}] at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:[&amp;#34;aqua&amp;#34;]} execute as @e[type=armor_stand,tag=aqua] at @s run scoreboard players add @s Aqua 1 execute as @e[type=armor_stand,tag=aqua,scores={Aqua=..1200}] at @s run fill ~ ~1 ~ ~ ~ ~ water keep execute as @e[type=armor_stand,tag=aqua,scores={Aqua=1200.">
+    <link rel="shortcut icon" href="/img/crystal.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="メニューを開く・閉じる">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/github_hucf33d49b4286ea6fae814bea6b2760e2_23143_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">CrystaWorld</a></h1>
+            <h2 class="site-description">クリスタの備忘録的ブログ</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Crysta1221'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.patreon.com/CrystaWorld'
+                        target="_blank"
+                        title="Patreon"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-patreon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 3h3v18h-3z" />
+  <circle cx="15" cy="9.5" r="6.5" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/Crysta1221'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/downloads/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+  <polyline points="7 11 12 16 17 11" />
+  <line x1="12" y1="4" x2="12" y2="16" />
+</svg>
+                
+                <span>Downloads</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>ダークモード</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目次</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#はじめに">はじめに</a></li>
+    <li><a href="#方法とは">方法とは&hellip;</a></li>
+    <li><a href="#おわりに">おわりに</a></li>
+    <li><a href="#tips">Tips</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/" style="background-color: #107C41; color: #fff;">
+                コマンド
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/23-02-18/">【備忘録】弓ごとに別々の効果を発動させる</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 18, 2023</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="はじめに">はじめに</h2>
+<p>お久しぶりです。クリスタです。今回は、「弓ごとに別々の効果を発動させる」という方法をご紹介したいと思います。
+例えば、炎の弓、氷の弓、雷の弓のように弓を複数使うかつ別々の効果を起こしたい場合、それぞれどの弓から発射されたら炎にするかどうかを調べるのは
+大変です。<br>
+そこで今回は海外のサイトで見つけた方法をご紹介したいと思います。</p>
+<h2 id="方法とは">方法とは&hellip;</h2>
+<p>具体的にどのようにして区別させるか&hellip;なのですが、今回はクロスボウを使います。なぜクロスボウかというと、クロスボウはコマンドで装填済みの矢を
+決めることができます。そして今回はこの装填済みの矢のNBTを調べて区別するというわけです。
+今回はクロスボウに<code>minecraft:tripped_arrow</code>を装填させます。この<code>tripped_arrow</code>は何かというと効能付き矢のことです。これはクリエイティブで実際に出すことができます。さらに、この効能付きの矢ですが、NBTに<code>color</code>というのがあります。これは効能付き矢の色を決めるものでRGBで決められます。この矢の色でどの効果をもたらすのかを判別します。<br>
+ここで一つ難点があります。矢のNBTには<code>color</code>があるのですが、クロスボウには全く同じものはありません。Minecraftは、クロスボウの装填前の矢と発射後の矢でNBTが変わるという厄介な点があります。<br>
+クロスボウで装填前の矢のNBTは、<code>{CustomPotionColor:255}</code>になりますが、発射されるとこれが、<code>{Color:255}</code>に変化します。<br>
+まずは<code>{CustomPotionColor:255}</code>を設定したクロスボウを<code>give</code>で取得します。(このコマンドをコピー後、貼り付ける前に<code>/</code>を入れてください)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mcfunction" data-lang="mcfunction"><span class="line"><span class="cl"><span class="kr">give</span><span class="w"> </span><span class="kc">@p</span><span class="w"> </span>crossbow<span class="p">{</span><span class="nt">ChargedProjectiles</span><span class="p">:[{</span><span class="nt">id</span><span class="p">:</span><span class="s2">&#34;minecraft:tipped_arrow&#34;</span><span class="p">,</span><span class="nt">Count</span><span class="p">:</span><span class="m">1b</span><span class="p">,</span><span class="nt">tag</span><span class="p">:{</span><span class="nt">CustomPotionColor</span><span class="p">:</span><span class="mi">255</span><span class="p">}},{},{}],</span><span class="nt">Charged</span><span class="p">:</span><span class="m">1b</span><span class="p">}</span><span class="w"> </span><span class="mi">1</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>次にコマンドブロックを用意します。これも<code>give</code>で取得します。(このコマンドをコピー後、貼り付ける前に<code>/</code>を入れてください)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mcfunction" data-lang="mcfunction"><span class="line"><span class="cl"><span class="kr">give</span><span class="w"> </span><span class="kc">@p</span><span class="w"> </span>command_block<span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>コマンドブロックの中は次のコマンドを入れてください。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mcfunction" data-lang="mcfunction"><span class="line"><span class="cl"><span class="c1">#リピート、常時実行
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">execute</span><span class="w"> </span>as<span class="w"> </span><span class="kc">@e</span><span class="p">[</span><span class="na">type</span><span class="p">=</span>arrow<span class="p">,</span><span class="na">nbt</span><span class="p">={</span><span class="nt">Color</span><span class="p">:</span><span class="mi">255</span><span class="p">,</span><span class="nt">inGround</span><span class="p">:</span><span class="m">1b</span><span class="p">}]</span><span class="w"> </span>at<span class="w"> </span><span class="kc">@s</span><span class="w"> </span>run<span class="w"> </span><span class="p">&lt;</span><span class="err">実行したい内容</span><span class="p">&gt;</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>これは、<code>execute</code>で、色が255で地面に着いた矢としてコマンドを実行するものです。<br>
+これを改造することでこんなこともできます。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mcfunction" data-lang="mcfunction"><span class="line"><span class="cl"><span class="kr">execute</span><span class="w"> </span>as<span class="w"> </span><span class="kc">@e</span><span class="p">[</span><span class="na">type</span><span class="p">=</span>arrow<span class="p">,</span><span class="na">nbt</span><span class="p">={</span><span class="nt">Color</span><span class="p">:</span><span class="mi">255</span><span class="p">,</span><span class="nt">inGround</span><span class="p">:</span><span class="m">1b</span><span class="p">}]</span><span class="w"> </span>at<span class="w"> </span><span class="kc">@s</span><span class="w"> </span>run<span class="w"> </span><span class="kr">summon</span><span class="w"> </span>armor_stand<span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="p">{</span><span class="nt">NoGravity</span><span class="p">:</span><span class="m">1b</span><span class="p">,</span><span class="nt">Invulnerable</span><span class="p">:</span><span class="m">1b</span><span class="p">,</span><span class="nt">Invisible</span><span class="p">:</span><span class="m">1b</span><span class="p">,</span><span class="nt">Tags</span><span class="p">:[</span><span class="s2">&#34;aqua&#34;</span><span class="p">]}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kr">execute</span><span class="w"> </span>as<span class="w"> </span><span class="kc">@e</span><span class="p">[</span><span class="na">type</span><span class="p">=</span>armor_stand<span class="p">,</span><span class="na">tag</span><span class="p">=</span>aqua<span class="p">]</span><span class="w"> </span>at<span class="w"> </span><span class="kc">@s</span><span class="w"> </span>run<span class="w"> </span><span class="kr">scoreboard</span><span class="w"> </span>players<span class="w"> </span>add<span class="w"> </span><span class="kc">@s</span><span class="w"> </span>Aqua<span class="w"> </span><span class="mi">1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kr">execute</span><span class="w"> </span>as<span class="w"> </span><span class="kc">@e</span><span class="p">[</span><span class="na">type</span><span class="p">=</span>armor_stand<span class="p">,</span><span class="na">tag</span><span class="p">=</span>aqua<span class="p">,</span><span class="na">scores</span><span class="p">={</span><span class="na">Aqua</span><span class="p">=</span><span class="err">..</span><span class="mi">1200</span><span class="p">}]</span><span class="w"> </span>at<span class="w"> </span><span class="kc">@s</span><span class="w"> </span>run<span class="w"> </span><span class="kr">fill</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="mi">1</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span>water<span class="w"> </span>keep<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kr">execute</span><span class="w"> </span>as<span class="w"> </span><span class="kc">@e</span><span class="p">[</span><span class="na">type</span><span class="p">=</span>armor_stand<span class="p">,</span><span class="na">tag</span><span class="p">=</span>aqua<span class="p">,</span><span class="na">scores</span><span class="p">={</span><span class="na">Aqua</span><span class="p">=</span><span class="mi">1200</span><span class="err">..</span><span class="p">}]</span><span class="w"> </span>at<span class="w"> </span><span class="kc">@s</span><span class="w"> </span>unless<span class="w"> </span>block<span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span>iron_bars<span class="w"> </span>run<span class="w"> </span><span class="kr">fill</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="mi">1</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span><span class="nb">~</span><span class="w"> </span>air<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kr">kill</span><span class="w"> </span><span class="kc">@e</span><span class="p">[</span><span class="na">type</span><span class="p">=</span>armor_stand<span class="p">,</span><span class="na">tag</span><span class="p">=</span>aqua<span class="p">,</span><span class="na">scores</span><span class="p">={</span><span class="na">Aqua</span><span class="p">=</span><span class="mi">1200</span><span class="err">..</span><span class="p">}]</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>上のコマンドはすべてデータパックでの活用例です。(一応一行ずつコマブロに移植することもできます)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-mcfunction" data-lang="mcfunction"><span class="line"><span class="cl"><span class="c1">#配布用アイテム
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">give</span><span class="w"> </span><span class="kc">@p</span><span class="w"> </span>crossbow<span class="p">{</span><span class="nt">ChargedProjectiles</span><span class="p">:[{</span><span class="nt">id</span><span class="p">:</span><span class="s2">&#34;minecraft:tipped_arrow&#34;</span><span class="p">,</span><span class="nt">Count</span><span class="p">:</span><span class="m">1b</span><span class="p">,</span><span class="nt">tag</span><span class="p">:{</span><span class="nt">CustomPotionColor</span><span class="p">:</span><span class="mi">255</span><span class="p">}},{},{}],</span><span class="nt">Charged</span><span class="p">:</span><span class="m">1b</span><span class="p">}</span><span class="w"> </span><span class="mi">1</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>こちらは実際に動くために必要なクロスボウです。<br>
+実際に使ってみると、着弾地点に水が生成されるようになります。(1分で勝手に消える仕様です)高いところに移動したりするのにすこ～し便利になりました。</p>
+<h2 id="おわりに">おわりに</h2>
+<p>いかがだったでしょうか？これだけでもいろいろなゲームを作ったりする際に少し便利になるのではないでしょうか&hellip;?<br>
+実はこの<code>{inGround:1b}</code>、プレイヤーにヒットするのは検知できません。そのため、プレイヤーにヒットした場合は何も起こらないのが弱点です。次回はこの解決法もお教えしますのでお楽しみに&hellip;!</p>
+<h2 id="tips">Tips</h2>
+<style type="text/css">.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}</style>
+<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></symbol><symbol id="note-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="warning-notice" viewBox="0 0 576 512" preserveAspectRatio="xMidYMid meet"><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="info-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></symbol></svg></div><div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>Tip</p><p>コマンドを実行する前に<code>/</code>(スラッシュ)を必ず入れてください。ただし、データパックは<code>/</code>は必要ありません。</p></div>
+
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2018 - 
+        
+        2023 CrystaWorld
+    </section>
+    
+    <section class="powerby">
+        
+            コンテンツの無断転載を禁じます <br/>
+        Made by Hugo. <br />
+        Published by CrystaWorld. All rights reserved.
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
