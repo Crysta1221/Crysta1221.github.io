@@ -6,7 +6,15 @@
         <description>Recent content in Posts on CrystaWorld</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Sat, 18 Feb 2023 00:18:24 +0900</lastBuildDate><atom:link href="https://crysta1221.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 19 Feb 2023 00:18:24 +0900</lastBuildDate><atom:link href="https://crysta1221.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【備忘録】矢がヒットしたプレイヤーを検知</title>
+        <link>https://crysta1221.github.io/p/23-02-19/</link>
+        <pubDate>Sun, 19 Feb 2023 00:18:24 +0900</pubDate>
+        
+        <guid>https://crysta1221.github.io/p/23-02-19/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>【備忘録】弓ごとに別々の効果を発動させる</title>
         <link>https://crysta1221.github.io/p/23-02-18/</link>
         <pubDate>Sat, 18 Feb 2023 00:18:24 +0900</pubDate>
@@ -91,6 +99,481 @@
 &lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice tip&#34; &gt;
 &lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#tip-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Tip&lt;/p&gt;&lt;p&gt;コマンドを実行する前に&lt;code&gt;/&lt;/code&gt;(スラッシュ)を必ず入れてください。ただし、データパックは&lt;code&gt;/&lt;/code&gt;は必要ありません。&lt;/p&gt;&lt;/div&gt;
 
+</description>
+        </item>
+        <item>
+        <title>【Minecraft】畳サーバーとは?</title>
+        <link>https://crysta1221.github.io/p/tatami-server/</link>
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://crysta1221.github.io/p/tatami-server/</guid>
+        <description>&lt;img src="https://crysta1221.github.io/p/tatami-server/contents1.png" alt="Featured image of post 【Minecraft】畳サーバーとは?" /&gt;&lt;p&gt;みなさんこんばんは。クリスタです。今回は私がいる畳サーバーというサーバーについて紹介したいと思います!&lt;/p&gt;
+&lt;h2 id=&#34;畳サーバーについて&#34;&gt;畳サーバーについて&lt;/h2&gt;
+&lt;p&gt;畳サーバーは、統合版・Java版・スマホ版どれでも参加できる公開マインクラフトサーバーです。Nintendo Switchでも設定を変更すれば
+参加することができます!畳サーバーに入るには畳サーバー公式Discordに参加する必要があります。
+&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;
+&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice info&#34; &gt;
+&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#info-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Info&lt;/p&gt;&lt;p&gt;Discordの利用規約上13歳以上ではないと参加することができません!&lt;/p&gt;&lt;/div&gt;
+
+詳しくは&lt;a class=&#34;link&#34; href=&#34;https://tatamiserver.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;コチラ&lt;/a&gt;から畳サーバー公式ホームページをチェック!&lt;/p&gt;
+&lt;h2 id=&#34;何をするところ&#34;&gt;何をするところ?&lt;/h2&gt;
+&lt;p&gt;畳サーバーではイベントから生活まで様々なコンテンツを用意しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;逃走中やPvPで楽しめるイベントサーバー&lt;/li&gt;
+&lt;li&gt;お金の概念がある生活サーバー&lt;/li&gt;
+&lt;li&gt;ミニゲームが楽しめる24時間イベントサーバー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;不定期開催!イベントサーバー!&lt;/strong&gt;&lt;br&gt;
+不定期で開催されるイベントサーバー!逃走中・PvP・鬼ごっこ・マイクラバカ人狼など、いろんなイベントが楽しめます！
+しかもどれもクオリティが高くオリジナル要素も含まれているのでハマること間違いなし!
+ほかにもどんなイベントがあるかはコチラからチェック!&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://tatamiserver.com/event.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://tatamiserver.com/event.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;24時間イベントサーバーでできること&lt;/strong&gt;&lt;br&gt;
+24時間イベントサーバーと呼ばれ、高難易度イベント「チャレンジタワー」や新感覚弓PvP「Knock Shot」といったミニゲームが楽しめます!
+&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents/content02.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;991&#34;
+	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents/content02_hu1d50d1d24b83c1dfa5a660f1dcf553ba_632215_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents/content02_hu1d50d1d24b83c1dfa5a660f1dcf553ba_632215_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;チャレンジタワー&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;br&gt;
+▲チャレンジタワーの様子&lt;br&gt;
+&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents/content03.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;991&#34;
+	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents/content03_hu15e0b631312926f58d7c0675747c901f_1083549_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents/content03_hu15e0b631312926f58d7c0675747c901f_1083549_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;KnockShot&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;br&gt;
+▲Knock Shotのバトルエリア&lt;br&gt;
+&lt;br&gt;
+チャレンジタワーは一日一回のみ参加可能!(午前3時リセット) KnockShotはいつでも遊べます!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;24時間いつでも遊べる生活サーバー!&lt;/strong&gt;&lt;br&gt;
+最後に畳サーバーのメインコンテンツの一つ、生活サーバーを紹介!
+生活サーバーには土地が空いていればあなただけの土地を確保でき、自由な建築ができます!もちろん、資源ワールドで探検、お金集めもでき、ガチャチケット
+を買ってレアなアイテムを狙おう! (レアなエンチャント付き武器や装備などがごくまれに手に入るぞ!)&lt;br&gt;
+&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents/content01.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;991&#34;
+	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents/content01_hu335b89f8f0e51061bfd53a9bd206a969_2693149_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents/content01_hu335b89f8f0e51061bfd53a9bd206a969_2693149_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;生活サーバーの様子&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://crysta1221.github.io/p/tatami-server/contents1.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;991&#34;
+	srcset=&#34;https://crysta1221.github.io/p/tatami-server/contents1_hu97e468769a8c83f5d20714cf8abe3739_1670998_480x0_resize_box_3.png 480w, https://crysta1221.github.io/p/tatami-server/contents1_hu97e468769a8c83f5d20714cf8abe3739_1670998_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;取引所&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;運営募集中&#34;&gt;運営募集中!&lt;/h2&gt;
+&lt;p&gt;畳サーバーでは運営を募集しています。「サーバー運営に携わってみたい!」、「イベントを作りたい!」など、少しでも興味がありましたら&lt;a class=&#34;link&#34; href=&#34;https://mineidea.net/projects/6160894485&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;コチラ&lt;/a&gt;からどうぞ！
+サーバー運営では生活サーバーを中心に不具合や窃盗などの被害に対応するのが主な仕事です。難しいと思うかもしれませんが慣れると楽しくなりますよ!&lt;br&gt;
+イベントを作ってみたい場合、建築するか・コマンドを作るかどちらかになります。コマンドの場合、データパックというものを主に作っていただくことになります。
+プログラミングなんてしたことない&amp;hellip;でも作ってみたい! 安心してください! データパックを学ぶことのできる講座がありますので好きな時間に学ぶことができます!&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;少しでも気になった&amp;hellip;参加してみたい&amp;hellip;!などありましたら、ぜひご参加ください! 心強いマインクラフターがあなたを待っていますよ!&lt;br&gt;
+これからも不定期で畳サーバーに関する記事を書いていきますのでよければご確認ください! それでは次回の記事でお会いしましょう!&lt;br&gt;
+さようなら!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Optifine導入解説</title>
+        <link>https://crysta1221.github.io/p/optifine-intro/</link>
+        <pubDate>Tue, 07 Feb 2023 00:18:24 +0900</pubDate>
+        
+        <guid>https://crysta1221.github.io/p/optifine-intro/</guid>
+        <description>&lt;img src="https://crysta1221.github.io/p/optifine-intro/optifine.png" alt="Featured image of post Optifine導入解説" /&gt;&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;
+&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice note&#34; &gt;
+&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#note-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Note&lt;/p&gt;&lt;p&gt;このブログは、Qiitaから移行されたものです。Qiita版をご覧になりたい場合は、以下のURLよりアクセスしてください。&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://qiita.com/Crysta1221/items/810fa69d8d537054bec1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://qiita.com/Crysta1221/items/810fa69d8d537054bec1&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
+&lt;p&gt;どうもみなさんこんにちは。クリスタです。今回は、「徹底解説! Optifineの導入方法編」ということで、今更ほかのブログでやり方公開されてるのにわざわざ導入方法を書く必要なくね?と思う方も多いはず。
+しかし! どのブログも「&lt;font color=&#34;Red&#34;&gt;&lt;strong&gt;Optifineの導入に失敗した際の対処法&lt;/strong&gt;&lt;/font&gt;」が少なすぎる!
+なので、今回は導入の解説もしつつ、失敗した際のパターンをほぼすべてに焦点を当てて解説をする回です。では早速行きましょう!&lt;/p&gt;
+&lt;h2 id=&#34;1-javaをインストール&#34;&gt;1. Javaをインストール&lt;/h2&gt;
+&lt;p&gt;ということで、まずはOptifineの導入に必須のJavaから入れていきましょう。すでにパソコンにJavaが入っているという方はこの項目をスキップしてください。
+今回は以下のページからインストールしていきます。
+&lt;a class=&#34;link&#34; href=&#34;https://www.java.com/ja/download/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Javaのホームページ&lt;/a&gt;
+このページにまずはアクセスしましょう。ブラウザは、サポートの切れたInternet Explorer以外なら何でもいいです。下のようなページに飛ぶはずです。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/713b6a8f-44fe-a522-d997-4c98c4b8ae39.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+この、赤枠の「Javaをダウンロード」というボタンをクリックしてください。ダウンロードされます。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/798bd9dc-c2f2-a6f6-f73c-f33cd431110f.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+Chrome系は上の画像のように&lt;font color=&#34;red&#34;&gt;左下にダウンロードしたファイルが表示されます&lt;/font&gt;。
+一方、Edgeだけは特殊で、右上あたりにダウンロードするのがあるんですよね&amp;hellip;中身は同じなのにめんどくさいですね。
+とりあえずダウンロードできたら、そのファイルをクリックします。エクスプローラーを開かずに、ブラウザでダウンロードしたファイルが表示されているはずなのでそのファイルをクリックすることで簡単に開けます。&lt;/p&gt;
+&lt;div class=&#34;notice warning&#34; &gt;
+&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#warning-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Warning&lt;/p&gt;&lt;p&gt;ここから先は管理者の権限が必要です。&lt;/p&gt;&lt;/div&gt;
+
+&lt;p&gt;インストールには、管理者権限が必要です。これは不必要にアプリをインストールできないようにする保護機能なので管理者でログインしている場合は、UAC(ユーザーアカウント制御)という「はい」か「いいえ」で選ぶ画面が出てくるはずです。一方、標準ユーザーの場合はここでパスワードが必要です。もし、親が管理しているパソコンであれば、パスワードが必要になることが多いので許可を取ってパスワードを入れてもらいましょう。
+実行するとこんな画面が出てきます。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/545c32c6-e38c-0a71-4526-6e619a54c5c9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+まずはライセンス条項を読みましょう。これは、Javaの利用規約で、簡単に言うと、&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;このJavaは商用利用ダメだから個人で利用してね! 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Javaをインストールしてエラーが起きたらエラーの内容をOlacle(Java開発元)に送るかもだけど
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;その情報の取り扱いについて書いてるから同意するかい? 同意するならインストールボタン押してね!
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;という感じです。軽めに書いてますがちゃんと読みましょう。同意する場合は、「インストール」ボタンを押しましょう。逆に同意しない場合、こっから先には進めないというのは察しがつくと思います。
+Javaのインストール完了 という画面が出たら、その画面を閉じましょう。さて、Optifine入れよう!と進めがちですが、&lt;strong&gt;一旦パソコンを再起動&lt;/strong&gt;しましょう。理由は、Javaをインストールした際、そのインストールを必ず適用させるため(つまり失敗しないようにするため)です。中途半端にインストールしてしまうと、Optifineが入らない可能性があります。再起動できたら、次の項目へレッツゴー!&lt;/p&gt;
+&lt;h2 id=&#34;2-optifineの導入&#34;&gt;2. Optifineの導入&lt;/h2&gt;
+&lt;p&gt;さて、今回の山場Optifineの導入に行きます。ここからは完全に&lt;strong&gt;パソコンとJavaの相性&lt;/strong&gt;により、方法が変わります。とりあえず、Optifineをダウンロードしてしまいましょう。以下のページに移動してください。
+&lt;a class=&#34;link&#34; href=&#34;https://optifine.net/downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Optifine公式ページ&lt;/a&gt;
+こんなページになります。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/31f46862-7d6f-c448-e343-c76ae0313651.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+ここから、あなたのバージョンにあったOptifineを入れていくわけですが、今のMinecraftで最新のバージョンは、 &lt;code&gt;1.19.1&lt;/code&gt; です。1.19あるいは1.19.1を入れる場合はそのままでよいわけですが、1.19より前のバージョンはどこ?と思うかもしれません。そのページに「Show all versions」というリンクがありますのでそれを押しましょう。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/1757c2d6-b8d8-9f3f-789f-24c4647be000.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+そうすると、いろいろなバージョンが表示されるようになります。今回は例として、 &lt;code&gt;1.16.5&lt;/code&gt; で解説しますが、どのバージョンでもやり方は同じですのでやり方としてご覧ください。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/e7762219-ddde-9562-a24a-30e031b9ba90.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;目的のバージョンのところに「Download」というボタンがあります。ここをクリックしてください。&lt;/p&gt;
+&lt;div class=&#34;notice info&#34; &gt;
+&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#info-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Info&lt;/p&gt;&lt;p&gt;この後のページは広告が表示されます。ですのでこのページに書いてある方法に従ってください。変にクリックするだけで広告のページに飛ばされる恐れがあります。その際は落ちついてその広告ページのタブを閉じれば問題ありません。&lt;/p&gt;&lt;/div&gt;
+
+&lt;p&gt;注意にもある通りここから先は広告が表示されます。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/7a6d9d6c-345b-2eed-0a09-615baf2d2211.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+私は、Braveという広告をブロックしてくれるブラウザを使っているので真っ白ですが真っ白のところにでかでかと広告が載ってるはずです。どこ押せばいいんや!となりますが、右上に注目。小さく、「Please wait 5 seconds.」と書かれていますね。はい、察しがつくと思いますが、5秒待たないとスキップできません。Youtubeの広告みたいですね。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/05bb40de-a61b-fbb1-6ad9-f7a25baac877.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+5秒待つと、右上に「Skip」というボタンが表示されるようになりますのでクリックしましょう。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/ad635e17-6dbd-2018-d28f-b3a5ee14676f.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+そうすると、このような画面になりますので今度こそ「Download」ボタンをポチりましょう。
+さっきJavaをダウンロードしたみたいにダウンロードしたファイルが表示されます。では、こっからが山場です。相性が良ければ、さっきのようにファイルをクリックすると、
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/c952bc13-d76b-3a50-2d65-46ba0ed79ae7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+このような画面になります。もし、このような画面になれば、Optifine Installerが表示された場合をご覧ください。それが表示されない場合は、下から該当する現象に合う項目を探してその方法を試してください。該当するものがない場合はまずは、&lt;code&gt;クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出る&lt;/code&gt;をご覧ください。&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;Optifine Installerが表示された場合&lt;/summary&gt;
+&lt;p&gt;成功です! やりましたね! &lt;a class=&#34;link&#34; href=&#34;#3-%e8%b5%b7%e5%8b%95%e6%a7%8b%e6%88%90%e3%81%ae%e5%a4%89%e6%9b%b4&#34; &gt;3.起動構成の変更&lt;/a&gt; に移動して、残りの設定を済ませてしまいましょう。&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;クリックしても反応しない、一瞬黒い画面が出る、プログラムから選択が出る&lt;/summary&gt;
+&lt;p&gt;残念ながら、Javaとの相性が良くないようです。JDKを入れてみましょう。今回は、Adopt Open JDKというものを使います。本当は、Olacle のOpen JDKを使ってもいいのですが、Javaのバージョン管理が簡単なAdopt Open JDKがおすすめなのでこちらで。
+&lt;a class=&#34;link&#34; href=&#34;https://adoptopenjdk.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Adopt Open JDKのページ&lt;/a&gt;
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/b42a2f1f-7fdb-2798-2e59-fece4d1d26d7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+このページに移動したら、まずは、1. Choose a version という項目があるので、それを一番下の「Open JDK 16(Latest)」にします。「Open JDK 16(Latest)」をクリックすると、選択できます。2はそのままでOKです。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/cfee6388-4859-f5db-b9de-fc040f0a1067.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+上のようになったら、あとは赤枠のボタンを押してください。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/f48b6353-8d3e-d032-dfa4-2af68fe343aa.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+今度はこんなページに飛ばされます。少し下にスクロールして下の画像と同じ場所まで移動してください。
+Windowsの場合は、Windows x64 というものを探します。ここではWindowsで説明します。Mac、Linuxの場合も同様に探してください。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/f13ca58a-8692-8680-b224-411fe8c501c9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+Windowsの場合、上の画面まで行けたら、「Msi」というボタンを押してください。Msiというのはインストーラのことで、自動でJavaを入れてくれる便利なものです。ZipはインストールするものでなくJavaをそのままZipにしただけのものです。クリックすると、1.同様にダウンロードされます。またそれをクリックして実行します。
+これも管理者権限が必要です。実行すると、以下の画面になります。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/2ca5c7c9-f392-ec2c-f3e2-225d0421f8fc.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+Adopt Open JDK 11の画面ですが、16も変わりはありません。「次へ」をクリックします。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/c00c8ba4-160e-1e96-5dbe-4bff5e9bad20.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+まず、&lt;code&gt;Set JAVA_HOME variable&lt;/code&gt; を有効にします。×ボタンをクリックして、&lt;code&gt;ローカルハードドライブにインストール&lt;/code&gt; をクリックして有効にします。
+次に、その下、&lt;code&gt;JavaSoft(Olacle) registory keys&lt;/code&gt; も同じようにしてローカルハードドライブにインストールにしてください。その後、「次へ」をクリックし、その後「インストール」をクリックしてください。
+これで、Adopt Open JDKがインストールされます。インストール完了と表示されたらまたパソコンを再起動します。再起動後、エクスプローラーを開きます。その後、ダウンロードをクリックします。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/67b4924b-634b-9a87-9f7d-080af7bb4584.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+その中にある、「Optifine～」で始まるファイルを探します。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/51e81979-05ad-f00f-fdc3-2619ff793ab9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+見つかったらダブルクリックして開きます。もし、成功していれば、2.Optifineの導入の一番下にある画像のようなものが表示されるはずです。それでもダメな場合、次の項目「Adopt Open JDKでも失敗する」を参照してください。&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Adopt Open JDKでも失敗する場合&lt;/summary&gt;
+&lt;p&gt;今後はコマンドプロンプトを使います。前提として、Javaのインストールが完了していることです。
+まずは、WindowsキーあるいはWindowsの画面の左下にあるスタートボタンを押します。その後、&lt;code&gt;cmd&lt;/code&gt; と入れると、&lt;code&gt;Windows コマンドプロンプト&lt;/code&gt;というのが検索に引っ掛かりますのでそれをクリックするか、「開く」で開いてください。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/63a55130-25bf-0090-76bb-349ac8baafb6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+こんなちょっとかっちょいい画面が出てきましたか? そうしたら、試しにどのように使うかデモンストレーション代わりに以下のコマンドを入れてみましょう。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bat&#34; data-lang=&#34;bat&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;java -version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;入れたら、Enterで実行します。そうすると、Javaのバージョンが表示されるはずです。私の場合、&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;openjdk&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;version&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;16.0.2&amp;#34;&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2021&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;07&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;20&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;OpenJDK&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Runtime&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Environment&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Temurin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;16.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;build&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;16.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;OpenJDK&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;64&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Bit&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Server&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;VM&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Temurin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;16.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;build&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;16.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mixed&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sharing&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;と表示されます。&lt;code&gt;&#39;java&#39; は、内部コマンドまたは外部コマンド、操作可能なプログラムまたはバッチ ファイルとして認識されていません。&lt;/code&gt; と表示された場合、まずJavaのインストールをしていないか、失敗しているかの2択ですのでインストール/再インストールをしましょう。再インストールは一度Javaをアンインストールしてから再度インストールすることです。もし、Javaのバージョンが表示されたら、次は以下のコマンドを入れましょう。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bat&#34; data-lang=&#34;bat&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;java -jar
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;これを入れたら、&lt;code&gt;-jar&lt;/code&gt;の後にスペースを押してください。その後、Optifineのファイルをコマンドプロンプトの画面にドロップします。どうドロップするか。Optifineのファイルをクリックしたまま、コマンドプロンプトの画面までマウスカーソルを移動させ、コマンドプロンプトの画面のどこかにマウスカーソルが来たら、離します。そうすると全体のコマンドは以下のようになるはずです。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bat&#34; data-lang=&#34;bat&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;java -jar c:\Users\&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;パソコンのユーザ名&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;\Downloads\Optifine~ .jar
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;こうなってたらOKです。Enterを押してください。そうすると、2.Optifineの導入の一番下のOptifine Installerという画面が出るはずです。
+もし、これをやっても無理!という場合はコメント欄に「やったこと」を記述し可能であればスクショを添付していただくと説明します。&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Javaをインストールできません。スイッチに失敗しましたと表示された場合&lt;/summary&gt;
+&lt;p&gt;Javaのインストールが完了していないまま続行したためJarファイルを開けなくなっています。一度コントロールパネルからJavaをアンインストールし、再度インストールしてみてください。&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;3-起動構成の変更&#34;&gt;3. 起動構成の変更&lt;/h2&gt;
+&lt;p&gt;さて、今回の山場は過ぎました。ここで注意し忘れていたのですが、&lt;/p&gt;
+&lt;div class=&#34;notice warning&#34; &gt;
+&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#warning-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Warning&lt;/p&gt;&lt;p&gt;Optifine Installerを起動する前に、一度マイクラのランチャーからそのバージョンを起動している必要があります。つまり、1.16.5のOptifineを入れる場合は、1.16.5のマイクラを起動している必要があります。&lt;/p&gt;&lt;/div&gt;
+
+&lt;p&gt;こういうことです。起動したらもう閉じてOKです。その後、Optifine Installerの「Install」というボタンを押します。 &lt;code&gt;Install Optifine~ successly!&lt;/code&gt; みたいに表示されたらOptifineの導入は終わりです。お疲れ様でした。後は、マイクラのランチャーとマイクラの画面を閉じて、ランチャーを起動すると、起動構成にOptifineが追加されています。
+さて、終わりでもいいのですが、複数のOptifineを利用する予定の場合は、フォルダ分けをしてしまいましょう。
+ランチャーを開き、起動構成に移動します。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/e410c52b-0131-1ae1-aede-bd10d35ec02a.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+こうすると、Optifineの起動の設定ができます。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/82114994-8b85-ac56-00b2-63e86dc9913f.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+重要なのはゲームディレクトリです。既定のディレクトリにすると、いちいち起動構成を変更する必要があります。また、リソパの管理、マイクラのバージョン管理も面倒になります。参照ボタンを押すと、
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/e5556680-b2bb-21f6-503f-b60f6e59cb98.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;
+このようになりますので、まずは、&lt;code&gt;Roaming&lt;/code&gt; というフォルダをクリックし、「新しいフォルダを作成」ボタンを押して、フォルダを作成します。フォルダの名前はわかりやすいものがいいです。作成したら、作成したフォルダを選択して、「OK」を押します。その後、ゲームディレクトリや名前、バージョンなどの画面になったら「保存」ボタンを押します。これで再度「プレイ」を押すことで今度こそ導入は終わりです。お疲れ様でした!&lt;/p&gt;
+&lt;h2 id=&#34;4-終わりに&#34;&gt;4. 終わりに&lt;/h2&gt;
+&lt;p&gt;いかがでしたか?無事Optifineは入れられましたでしょうか? 一応失敗する方向けに書かせていただきましたが、もしここに書いてる方法でもうまくいかない場合は、プロフィールのお問い合わせよりお願いします! Twitterもやっていますのでフォローのほどよろしくお願いします。
+それでは次回でお会いしましょう!&lt;/p&gt;
 </description>
         </item>
         
