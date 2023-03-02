@@ -372,6 +372,7 @@ Adopt Open JDK 11の画面ですが、16も変わりはありません。「次�
 &lt;h2 id=&#34;4-終わりに&#34;&gt;4. 終わりに&lt;/h2&gt;
 &lt;p&gt;いかがでしたか?無事Optifineは入れられましたでしょうか? 一応失敗する方向けに書かせていただきましたが、もしここに書いてる方法でもうまくいかない場合は、プロフィールのお問い合わせよりお願いします! Twitterもやっていますのでフォローのほどよろしくお願いします。
 それでは次回でお会いしましょう!&lt;/p&gt;
+&lt;p&gt;{{ template &amp;ldquo;_internal/disqus.html&amp;rdquo; . }}&lt;/p&gt;
 </description>
         </item>
         
