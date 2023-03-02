@@ -62,7 +62,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: giscus
 
         disqusjs:
             shortname: crysta1221
@@ -117,12 +117,12 @@ params:
             siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
         giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            lightTheme:
+            repo: Crysta1221/giscus
+            repoID: R_kgDOJEaDrw
+            category: Announcements
+            categoryID: DIC_kwDOJEaDr84CUmB2
+            mapping: url
+            lightTheme: 
             darkTheme:
             reactionsEnabled: 1
             emitMetadata: 0
