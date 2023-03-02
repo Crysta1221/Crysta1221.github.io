@@ -63,4 +63,3 @@ give @p crossbow{ChargedProjectiles:[{id:"minecraft:tipped_arrow",Count:1b,tag:{
 コマンドを実行する前に`/`(スラッシュ)を必ず入れてください。ただし、データパックは`/`は必要ありません。
 {{< /notice >}}
 
-{{ template "_internal/disqus.html" . }}
