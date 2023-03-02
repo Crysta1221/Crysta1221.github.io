@@ -6,6 +6,10 @@ slug: 23-02-18
 categories:
     - コマンド
 readingtime: false
+links:
+  - title: 次回の記事はコチラから
+    description: 【備忘録】矢がヒットしたプレイヤーを検知
+    website: /p/23-03-02
 ---
 
 ## はじめに

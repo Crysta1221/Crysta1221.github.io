@@ -1,7 +1,7 @@
 ---
 title: "【Minecraft】畳サーバーとは?"
 date: 2023-02-12
-draft: true
+draft: false
 slug: tatami-server
 image: contents1.png
 categories:

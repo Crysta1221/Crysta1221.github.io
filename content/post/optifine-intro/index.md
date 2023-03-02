@@ -1,7 +1,7 @@
 ---
 title: "Optifine導入解説"
 date: 2023-02-07T00:18:24+09:00
-draft: true
+draft: false
 slug: Optifine-intro
 image: optifine.png
 categories:
