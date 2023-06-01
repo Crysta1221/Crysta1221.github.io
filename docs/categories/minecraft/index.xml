@@ -6,7 +6,31 @@
         <description>Recent content in Minecraft on CrystaWorld</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
-        <lastBuildDate>Tue, 07 Feb 2023 00:18:24 +0900</lastBuildDate><atom:link href="https://crysta1221.github.io/categories/minecraft/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://crysta1221.github.io/categories/minecraft/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Minecraftのサーバー接続エラー解説</title>
+        <link>https://crysta1221.github.io/p/server_err/</link>
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://crysta1221.github.io/p/server_err/</guid>
+        <description>&lt;img src="https://crysta1221.github.io/p/server_err/optifine.png" alt="Featured image of post Minecraftのサーバー接続エラー解説" /&gt;&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;お久しぶりです。クリスタです。今回は、「Minecraftにおけるサーバーの接続エラーを解説」する回でございます。
+自分がよくいる鯖がアップデートされてサーバーのエラーがここ最近出るようになったのである程度解説しておけば怖くはないかなと思ったのでぜひ最後まで見ていただけると幸いです。&lt;/p&gt;
+&lt;h2 id=&#34;エラー一覧&#34;&gt;エラー一覧&lt;/h2&gt;
+&lt;h3 id=&#34;h4font-colorredcould-not-connect-to-a-default-or-fallback-serverincorrectly-configured-addressportfirewallh4font&#34;&gt;&lt;h4&gt;&lt;font color=&#34;Red&#34;&gt;Could not connect to a default or fallback server.Incorrectly configured address/port/firewall?&lt;/h4&gt;&lt;/font&gt;&lt;/h3&gt;
+&lt;p&gt;このエラーはサーバーが、複数のサーバー間を移動できるプラグイン「BungeeCord」や「Waterfall」を導入していてその設定がミスっている際によく起こります。そのため、クライアント側ではなくサーバー側の問題なので修正されるのを待ちましょう。&lt;/p&gt;
+&lt;h3 id=&#34;h4javanetconnectexception-connection-timed-out-no-further-informationh4&#34;&gt;&lt;h4&gt;java.net.ConnectException: Connection timed out: no further information&lt;/h4&gt;&lt;/h3&gt;
+&lt;p&gt;このエラーは、&lt;code&gt;Commection timed out&lt;/code&gt; サーバーへの接続先が見つからなかった&amp;hellip;ということです。つまり、接続しようとしてたアドレスが存在しないか、サーバーがまだ起動していないことを指しています。&lt;code&gt;nor further information&lt;/code&gt;はこれ以上の情報が見つからなかったことを指しています。&lt;/p&gt;
+&lt;h3 id=&#34;h4connection-refused-no-further-informationh4&#34;&gt;&lt;h4&gt;Connection refused: no further information&lt;/h4&gt;&lt;/h3&gt;
+&lt;p&gt;このエラーは接続しようとしたサーバーが接続を拒否したために発生するエラーです。なぜ拒否されたかは&lt;code&gt;no further information&lt;/code&gt;により不明です。これはサーバー側のエラーのことが多いです。&lt;/p&gt;
+&lt;h3 id=&#34;h4プロフィール公開鍵が失効していますh4&#34;&gt;&lt;h4&gt;プロフィール公開鍵が失効しています~&amp;hellip;&lt;/h4&gt;&lt;/h3&gt;
+&lt;p&gt;このエラーは接続先のサーバーが1.19以上で発生しやすいです。1.19以降チャットの通報機能が強化されたため署名機能も追加されました。クライアント側のMinecraftとMinecraft Launcherの再起動で直ることが多いです。&lt;/p&gt;
+&lt;h3 id=&#34;h4font-colorredkicked-by-whilisth4font&#34;&gt;&lt;h4&gt;&lt;font color=&#34;red&#34;&gt;Kicked by Whilist&lt;/h4&gt;&lt;/font&gt;&lt;/h3&gt;
+&lt;p&gt;これはおなじみホワイトリストに存在しないためキックされたというメッセージですね。ホワイトリストは、管理者しか追加できないのでもしなかったら管理者の人に聞いてみましょう。&lt;/p&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;とりあえず、よく出そうなメッセージだけを解説しました。他にもこのメッセージってどういうこと!?などありましたら、このページの一番最後にコメントを書くことができますので可能な限りスクリーンショットとどうしたらそうなったのかを入れてもらえれば私が時間のある時に答えると思います。それではまた次回お会いしましょう!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Optifine導入解説</title>
         <link>https://crysta1221.github.io/p/optifine-intro/</link>
         <pubDate>Tue, 07 Feb 2023 00:18:24 +0900</pubDate>
@@ -20,7 +44,7 @@
 
 &lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
 &lt;p&gt;どうもみなさんこんにちは。クリスタです。今回は、「徹底解説! Optifineの導入方法編」ということで、今更ほかのブログでやり方公開されてるのにわざわざ導入方法を書く必要なくね?と思う方も多いはず。
-しかし! どのブログも「&lt;font color=&#34;Red&#34;&gt;&lt;strong&gt;Optifineの導入に失敗した際の対処法&lt;/strong&gt;&lt;/font&gt;」が少なすぎる!
+しかし! どのブログも「&lt;font color=&#34;Red&#34;&gt;&lt;strong&gt;Optifineの導入に失敗した際の対処法&lt;/strong&gt;&lt;/font&gt;」が少なすぎる!&lt;br&gt;
 なので、今回は導入の解説もしつつ、失敗した際のパターンをほぼすべてに焦点を当てて解説をする回です。では早速行きましょう!&lt;/p&gt;
 &lt;h2 id=&#34;1-javaをインストール&#34;&gt;1. Javaをインストール&lt;/h2&gt;
 &lt;p&gt;ということで、まずはOptifineの導入に必須のJavaから入れていきましょう。すでにパソコンにJavaが入っているという方はこの項目をスキップしてください。
@@ -73,21 +97,23 @@ Chrome系は上の画像のように&lt;font color=&#34;red&#34;&gt;左下にダ
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;このJavaは商用利用ダメだから個人で利用してね! 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Javaをインストールしてエラーが起きたらエラーの内容をOlacle(Java開発元)に送るかもだけど
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;その情報の取り扱いについて書いてるから同意するかい? 同意するならインストールボタン押してね!
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;・このJavaは個人でのみ使えるので商用利用する場合は別のライセンス登録が必要だよ
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;・このJavaの所有権はOlacleがもってるで
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;・個人を特定しない形でのデータ提供をOlacleに行なうよ(Javaの最適化につながるよ)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;・このJavaについて、サポートは行わないからあくまで自己責任で使ってね
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;という感じです。軽めに書いてますがちゃんと読みましょう。同意する場合は、「インストール」ボタンを押しましょう。逆に同意しない場合、こっから先には進めないというのは察しがつくと思います。
+&lt;/div&gt;&lt;p&gt;という感じです。同意する場合は、「インストール」ボタンを押しましょう。逆に同意しない場合、こっから先には進めないというのは察しがつくと思います。
 Javaのインストール完了 という画面が出たら、その画面を閉じましょう。さて、Optifine入れよう!と進めがちですが、&lt;strong&gt;一旦パソコンを再起動&lt;/strong&gt;しましょう。理由は、Javaをインストールした際、そのインストールを必ず適用させるため(つまり失敗しないようにするため)です。中途半端にインストールしてしまうと、Optifineが入らない可能性があります。再起動できたら、次の項目へレッツゴー!&lt;/p&gt;
 &lt;h2 id=&#34;2-optifineの導入&#34;&gt;2. Optifineの導入&lt;/h2&gt;
 &lt;p&gt;さて、今回の山場Optifineの導入に行きます。ここからは完全に&lt;strong&gt;パソコンとJavaの相性&lt;/strong&gt;により、方法が変わります。とりあえず、Optifineをダウンロードしてしまいましょう。以下のページに移動してください。
 &lt;a class=&#34;link&#34; href=&#34;https://optifine.net/downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Optifine公式ページ&lt;/a&gt;
 こんなページになります。
-&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/31f46862-7d6f-c448-e343-c76ae0313651.png&#34;
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/f4a01574-2858-600f-afc2-549e9164969a.png&#34;
 	
 	
 	
@@ -97,8 +123,8 @@ Javaのインストール完了 という画面が出たら、その画面を閉
 	
 	
 &gt;
-ここから、あなたのバージョンにあったOptifineを入れていくわけですが、今のMinecraftで最新のバージョンは、 &lt;code&gt;1.19.1&lt;/code&gt; です。1.19あるいは1.19.1を入れる場合はそのままでよいわけですが、1.19より前のバージョンはどこ?と思うかもしれません。そのページに「Show all versions」というリンクがありますのでそれを押しましょう。
-&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/1757c2d6-b8d8-9f3f-789f-24c4647be000.png&#34;
+ここから、あなたのバージョンにあったOptifineを入れていくわけですが、今のMinecraftで最新のバージョンは、 &lt;code&gt;1.19.4&lt;/code&gt; です。1.19.4を入れる場合はそのままでよいわけですが、1.19.4より前のバージョンはどこ?と思うかもしれません。そのページに「Show all versions」というリンクがありますのでそれを押しましょう。
+&lt;img src=&#34;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2467860/0817f5b1-6fa3-a1d8-dc10-80d8b1e5cd0a.png&#34;
 	
 	
 	
