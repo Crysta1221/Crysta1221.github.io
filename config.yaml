@@ -1,6 +1,6 @@
 baseurl: https://crysta1221.github.io
 languageCode: ja
-theme: ["hugo-notice", "hugo-theme-stack"]
+theme: ["hugo-notice", "hugo-theme-stack", "hugo-shortcode-timeline"]
 paginate: 5
 title: CrystaWorld
 publishDir: docs

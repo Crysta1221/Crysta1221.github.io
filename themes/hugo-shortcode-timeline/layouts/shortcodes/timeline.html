@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="{{ (resources.Get "shortcode-timeline/timeline.sass" | toCSS).Permalink | relURL }}">
+<link rel="stylesheet" href="{{ (resources.Get "shortcode-timeline/timeline-mobile.sass" | toCSS).Permalink | relURL }}" media="screen and (max-width: 736px)">
+
+<div class="timeline">{{ .Inner }}</div>
+
+<script>
+    // add make transition on property max-height work by setting max-height to an actual value (instead of auto)
+    // when the timeline container is clicked
+    for (const collapsible of document.getElementsByClassName("collapsible")) {
+        const content = collapsible.querySelector(".body");
+
+        function doCollapse(collapse) {
+            if (collapse) {
+                content.style.maxHeight = "0px";
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        }
+
+        collapsible.addEventListener("click", () => {
+            // handwrite calculated height into element
+            doCollapse(collapsible.classList.contains("collapsed"));
+            // wait for a short moment, else the transition effect does not work
+            window.requestAnimationFrame(() => {
+                window.requestAnimationFrame(() => {
+                    const collapsed = collapsible.classList.toggle("collapsed");
+                    doCollapse(collapsed);
+                });
+            });
+        });
+
+        // remove the calculate height after the animation is finished
+        // if this is not done, max-heigh will cause overflow when browser window width is reduced
+        content.addEventListener('transitionend', (transitionEvent) => {
+            if(transitionEvent.propertyName == "max-height") {
+                content.style.maxHeight = null;
+            }
+        });
+    }
+</script>
